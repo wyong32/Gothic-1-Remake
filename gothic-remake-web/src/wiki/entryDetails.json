@@ -1,0 +1,1501 @@
+{
+  "gods/innos": {
+    "wikiTitle": "Innos",
+    "intro": "thumb|right|A shrine dedicated to Innos in [[Gothic 3]] Innos is one of the three major gods of the Gothic series.  Innos is the god of order, fire and light.  He is in opposition to his brother Beliar, while the third brother Adanos keeps the balance between Innos and Beliar.",
+    "facts": []
+  },
+  "gods/beliar": {
+    "wikiTitle": "Beliar",
+    "intro": "thumb|right|A shrine dedicated to BeliarBeliar is one of the three major gods of the Gothic series.  · He is the god of the night and death.  He is in an eternal battle with Innos, in which Adanos tries to keep the balance between the two.",
+    "facts": []
+  },
+  "gods/adanos": {
+    "wikiTitle": "Adanos",
+    "intro": "thumb|right|Symbol of Adanos Adanos is the god of water, nature and balance.  He encourages work, learning and knowledge.  He keeps the balance between his brothers Innos and Beliar in the world.",
+    "facts": []
+  },
+  "gods/sleeper": {
+    "wikiTitle": "Sleeper",
+    "intro": "}} The Sleeper is the final boss and main antagonist of Gothic.  He is an Archdemon<ref>Dialogue with Cronos and Xardas in Gothic, dialogue with Karras in Gothic II and manual entries for the Hero and Lester in Gothic II</ref> and the Avatar of Beliar. <ref>Xardas: 'And I have taken its power onto my own [...",
+    "facts": [
+      {
+        "label": "Name",
+        "value": "Sleeper"
+      },
+      {
+        "label": "Guild",
+        "value": "Sleeper"
+      },
+      {
+        "label": "Level",
+        "value": "2000"
+      },
+      {
+        "label": "Location",
+        "value": "Sleeper's Temple"
+      },
+      {
+        "label": "Status",
+        "value": "Banished"
+      }
+    ]
+  },
+  "regions/old-camp": {
+    "wikiTitle": "Old Camp",
+    "intro": "The Old Camp is one of the main three camps in the Colony.  Gomez and the Ore Barons are its rulers.  The Old Camp is the oldest and by far the richest camp established by the convicts in the Valley of Mines.",
+    "facts": [
+      {
+        "label": "Type",
+        "value": "Camp"
+      },
+      {
+        "label": "Location",
+        "value": "Valley of Mines"
+      },
+      {
+        "label": "Leader",
+        "value": "Gomez"
+      },
+      {
+        "label": "Population",
+        "value": "Around 120 people"
+      },
+      {
+        "label": "Inhabitants",
+        "value": "Ore Barons · Magicians of Fire · Guards · Shadows · Diggers"
+      },
+      {
+        "label": "Notable characters",
+        "value": "Gomez · Corristo · Thorus · Diego"
+      },
+      {
+        "label": "Notable spots",
+        "value": "Castle · Ore Barons' Residence · Fire Mage's Residence · Market"
+      },
+      {
+        "label": "Quests",
+        "value": "Admission to the Old Camp"
+      }
+    ]
+  },
+  "regions/new-camp": {
+    "wikiTitle": "New Camp",
+    "intro": "New Camp is one of the three camps in the penal colony of Khorinis in Gothic and Gothic Remake.  It is a camp of people wanting to leave the colony.  It is conjointly ruled by the Water mages, Lee and Lares.",
+    "facts": []
+  },
+  "regions/swamp-camp": {
+    "wikiTitle": "Swamp Camp",
+    "intro": "(also know as Sect Camp, Brotherhood, Loonies) is one of the three camps in the penal colony of Khorinis in Gothic and Gothic Remake.  It is ruled by gurus - spiritual leaders - with Y (read as \"ee\") as the head.  Last known head of the gurus is Y'Berion.",
+    "facts": []
+  },
+  "regions/valley-of-mines": {
+    "wikiTitle": "Valley of Mines",
+    "intro": "(also known as: Ger.  Minental) is a region of Khorinis where magic ore was being extracted by humans for use in the orc war.",
+    "facts": []
+  },
+  "regions/exchange": {
+    "wikiTitle": "Exchange Place",
+    "intro": "350px|thumb|right Exchange Place is a location in Gothic.  It is used for exchanging goods between the Colony and the outside world.  This is where you meet Diego at the start of the game.",
+    "facts": []
+  },
+  "regions/old-mine": {
+    "wikiTitle": "Old Mine",
+    "intro": "Old Mine is a mine in Gothic, Gothic II, Gothic II: Night of the Raven and Gothic Remake.",
+    "facts": []
+  },
+  "regions/free-mine": {
+    "wikiTitle": "Free Mine",
+    "intro": "is a mine under control of the New Camp in Gothic and Gothic Remake.",
+    "facts": []
+  },
+  "regions/mountain-fort": {
+    "wikiTitle": "Mountain Fort",
+    "intro": "Mountain Fort, also known as Mountain Fortress is a location in Gothic and Gothic II, situated in the south of the Valley of Mines.  A former place for a focus stone, it becomes a lair for the rock dragon Pedrakhan.",
+    "facts": []
+  },
+  "regions/old-castle": {
+    "wikiTitle": "Old Castle",
+    "intro": "#REDIRECT Old Citadel",
+    "facts": []
+  },
+  "regions/temple-of-the-magicians-of-fire": {
+    "wikiTitle": "Temple of the Magicians of Fire",
+    "intro": "|Tab2Name = Gothic II |Tab2 = }} Temple of the Magicians of Fire, also known as Temple of the Fire Mages or Chapel is a building inside the Old Camp's castle.  It serves as a home to Fire mages.",
+    "facts": [
+      {
+        "label": "Type",
+        "value": "Building"
+      },
+      {
+        "label": "Location",
+        "value": "Valley of Mines"
+      },
+      {
+        "label": "Inhabitants",
+        "value": "Milten · Gorn (if released)"
+      },
+      {
+        "label": "Quests",
+        "value": "None"
+      },
+      {
+        "label": "Icon",
+        "value": "Map_Gothic_Icon.webp"
+      },
+      {
+        "label": "Name",
+        "value": "Temple of the Magicians of Fire"
+      },
+      {
+        "label": "Image Description",
+        "value": "The front of the temple"
+      },
+      {
+        "label": "Teleportation",
+        "value": "Teleport to Castle"
+      }
+    ]
+  },
+  "characters/gomez": {
+    "wikiTitle": "Gomez",
+    "intro": "Gomez is the ruler of the Old Camp.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Ore Baron"
+      },
+      {
+        "label": "Level",
+        "value": "100"
+      },
+      {
+        "label": "Location",
+        "value": "Old Camp"
+      },
+      {
+        "label": "Weapons",
+        "value": "Innos' Rage"
+      },
+      {
+        "label": "Armor",
+        "value": "Gomez' Armor"
+      },
+      {
+        "label": "Name",
+        "value": "Gomez"
+      },
+      {
+        "label": "Appearance",
+        "value": "Gothic"
+      }
+    ]
+  },
+  "characters/diego": {
+    "wikiTitle": "Diego",
+    "intro": "|Tab2Name = Gothic II |Tab2 = |Tab3Name = Gothic 3 |Tab3 = |Tab4Name = ArcaniA |Tab4 = |Tab5Name = ArcaniA: FoS |Tab5 = |Tab6Name = GPT |Tab6 = |Tab7Name = NP |Tab7 = }}Diego is one of the key characters from Gothic series and a friend of a Nameless Hero.  He appears in every Gothic game.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Shadow"
+      },
+      {
+        "label": "Level",
+        "value": "999"
+      },
+      {
+        "label": "Location",
+        "value": "Old Camp's outer ring (most of the game) · Near Troll canyon (in chapter III) · Near Old Camp's southern gates (after chapter IV)"
+      },
+      {
+        "label": "Teaches",
+        "value": "Strength · Dexterity"
+      },
+      {
+        "label": "Weapons",
+        "value": "Diego's Bow · Battle Sword"
+      },
+      {
+        "label": "Armor",
+        "value": "Shadow's Armor"
+      },
+      {
+        "label": "Voice Actor",
+        "value": "William Roberts"
+      },
+      {
+        "label": "Name",
+        "value": "Diego"
+      }
+    ]
+  },
+  "characters/scatty": {
+    "wikiTitle": "Scatty",
+    "intro": "}}Scatty runs the arena of the Old Camp.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Guard"
+      },
+      {
+        "label": "Level",
+        "value": "15"
+      },
+      {
+        "label": "Location",
+        "value": "Old Camp"
+      },
+      {
+        "label": "Teaches",
+        "value": "One-handed"
+      },
+      {
+        "label": "Weapons",
+        "value": "Judgment Sword, Light Crossbow"
+      },
+      {
+        "label": "Armor",
+        "value": "Shadow's Armor"
+      },
+      {
+        "label": "Voice Actor",
+        "value": "Glenn Wrage"
+      },
+      {
+        "label": "Name",
+        "value": "Scatty"
+      }
+    ]
+  },
+  "characters/corristo": {
+    "wikiTitle": "Corristo",
+    "intro": "}} Corristo is the leader of the Magicians of Fire in the Old Camp.  He participated in the creation of the magical Barrier of Khorinis, which ended up imprisoning him along with the other convicts and magicians.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Magician of Fire"
+      },
+      {
+        "label": "Level",
+        "value": "30"
+      },
+      {
+        "label": "Location",
+        "value": "Old Camp"
+      },
+      {
+        "label": "Teaches",
+        "value": "Mana, Magic Circles"
+      },
+      {
+        "label": "Weapons",
+        "value": "Fire Ball"
+      },
+      {
+        "label": "Armor",
+        "value": "High Robe of Fire"
+      },
+      {
+        "label": "Voice Actor",
+        "value": "Don Delciappo}}"
+      },
+      {
+        "label": "Name",
+        "value": "Corristo"
+      }
+    ]
+  },
+  "characters/whistler": {
+    "wikiTitle": "Whistler",
+    "intro": "}}Whistler is a Shadow of the Old Camp.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Shadow"
+      },
+      {
+        "label": "Level",
+        "value": "5"
+      },
+      {
+        "label": "Location",
+        "value": "Old Camp"
+      },
+      {
+        "label": "Weapons",
+        "value": "Farmer's Defense, Rider's Bow"
+      },
+      {
+        "label": "Armor",
+        "value": "Shadow's Dress"
+      },
+      {
+        "label": "Voice Actor",
+        "value": "William Roberts"
+      },
+      {
+        "label": "Name",
+        "value": "Whistler"
+      },
+      {
+        "label": "Status",
+        "value": "Alive"
+      }
+    ]
+  },
+  "characters/fingers": {
+    "wikiTitle": "Fingers",
+    "intro": "}}Fingers is a Shadow and the most skillful thief of the Old Camp.  He can be found near the castle wall when going left facing the castle entrance.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Shadow"
+      },
+      {
+        "label": "Level",
+        "value": "7"
+      },
+      {
+        "label": "Location",
+        "value": "Old Camp"
+      },
+      {
+        "label": "Teaches",
+        "value": "Picklocking, Pickpocketing"
+      },
+      {
+        "label": "Weapons",
+        "value": "Thorn of Wounds, Rider's Bow"
+      },
+      {
+        "label": "Armor",
+        "value": "Shadow's Dress"
+      },
+      {
+        "label": "Voice Actor",
+        "value": "Eric Meyers"
+      },
+      {
+        "label": "Name",
+        "value": "Fingers"
+      }
+    ]
+  },
+  "characters/raven": {
+    "wikiTitle": "Raven",
+    "intro": "Raven is an Ore Baron of the Old Camp in Gothic and the eponymous antagonist of the expansion Gothic II: Night of the Raven.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Ore Baron"
+      },
+      {
+        "label": "Level",
+        "value": "80"
+      },
+      {
+        "label": "Location",
+        "value": "Old Camp"
+      },
+      {
+        "label": "Weapons",
+        "value": "Raven's Right"
+      },
+      {
+        "label": "Armor",
+        "value": "Heavy Ore Baron's Armor"
+      },
+      {
+        "label": "Name",
+        "value": "Raven"
+      }
+    ]
+  },
+  "characters/guy": {
+    "wikiTitle": "Guy",
+    "intro": "Guy is a Digger from the Old Camp.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Digger"
+      },
+      {
+        "label": "Level",
+        "value": "2"
+      },
+      {
+        "label": "Location",
+        "value": "Old Camp"
+      },
+      {
+        "label": "Weapons",
+        "value": "Pickaxe"
+      },
+      {
+        "label": "Name",
+        "value": "Guy"
+      }
+    ]
+  },
+  "characters/lee": {
+    "wikiTitle": "Lee",
+    "intro": "|Image = . png |Guild = Mercenary |Level = 19 |Teaches = Two-handed, Strength, Dexterity |Location = New Camp |Weapons = Lee's Axe |Armor = Heavy Mercenary's Armor |Status = Alive |Insert Code = SLD_700_Lee |Voice Actor = Ray Shell }} }} is the leader of the Mercenaries of the New Camp.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Mercenary"
+      },
+      {
+        "label": "Level",
+        "value": "19"
+      },
+      {
+        "label": "Location",
+        "value": "New Camp"
+      },
+      {
+        "label": "Teaches",
+        "value": "Two-handed, Strength, Dexterity"
+      },
+      {
+        "label": "Weapons",
+        "value": "Lee's Axe"
+      },
+      {
+        "label": "Armor",
+        "value": "Heavy Mercenary's Armor"
+      },
+      {
+        "label": "Voice Actor",
+        "value": "Ray Shell"
+      },
+      {
+        "label": "Status",
+        "value": "Alive"
+      }
+    ]
+  },
+  "characters/lares": {
+    "wikiTitle": "Lares",
+    "intro": "}}Lares is the leader of the Rogues of the New Camp.  After the fall of the Barrier of Khorinis he joins the Mercenaries and the Ring of Water.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Rogue"
+      },
+      {
+        "label": "Level",
+        "value": "15"
+      },
+      {
+        "label": "Location",
+        "value": "New Camp"
+      },
+      {
+        "label": "Teaches",
+        "value": "Strength, Dexterity"
+      },
+      {
+        "label": "Weapons",
+        "value": "Lares' Axe, Longbow"
+      },
+      {
+        "label": "Armor",
+        "value": "Heavy Rogue's Dress"
+      },
+      {
+        "label": "Name",
+        "value": "Lares"
+      }
+    ]
+  },
+  "characters/cord": {
+    "wikiTitle": "Cord",
+    "intro": "is a Mercenary of the New Camp.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Mercenary"
+      },
+      {
+        "label": "Level",
+        "value": "28"
+      },
+      {
+        "label": "Location",
+        "value": "New Camp"
+      },
+      {
+        "label": "Teaches",
+        "value": "One-handed"
+      },
+      {
+        "label": "Weapons",
+        "value": "Cord's Clefter, Longbow"
+      },
+      {
+        "label": "Armor",
+        "value": "Heavy Mercenary's Armor"
+      },
+      {
+        "label": "Appearance",
+        "value": "Gothic, Gothic II"
+      },
+      {
+        "label": "Status",
+        "value": "Alive"
+      }
+    ]
+  },
+  "characters/saturas": {
+    "wikiTitle": "Saturas",
+    "intro": "is the leader of the Water Mages of the New Camp.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Water Mage"
+      },
+      {
+        "label": "Level",
+        "value": "29"
+      },
+      {
+        "label": "Location",
+        "value": "New Camp"
+      },
+      {
+        "label": "Teaches",
+        "value": "Mana, Magic Circles"
+      },
+      {
+        "label": "Weapons",
+        "value": "Ice Block, Chain Lightning"
+      },
+      {
+        "label": "Armor",
+        "value": "High Robe of Water"
+      },
+      {
+        "label": "Voice Actor",
+        "value": "Don Delciappo"
+      },
+      {
+        "label": "Name",
+        "value": "Saturas"
+      }
+    ]
+  },
+  "characters/cavalorn": {
+    "wikiTitle": "Cavalorn",
+    "intro": "|Tab2Name = Gothic 2 NotR |Tab2 = }} Cavalorn is a hunter from the Old Camp.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Shadow"
+      },
+      {
+        "label": "Level",
+        "value": "5"
+      },
+      {
+        "label": "Location",
+        "value": "Cavalorn's Hut"
+      },
+      {
+        "label": "Teaches",
+        "value": "Bow, Sneaking"
+      },
+      {
+        "label": "Weapons",
+        "value": "Farmer's Defense, Rider's Bow"
+      },
+      {
+        "label": "Armor",
+        "value": "Shadow's Dress"
+      },
+      {
+        "label": "Name",
+        "value": "Cavalorn"
+      }
+    ]
+  },
+  "characters/yberion": {
+    "wikiTitle": "Y'Berion",
+    "intro": "'''Y'Berion''' is ...",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Guru"
+      },
+      {
+        "label": "Level",
+        "value": "30"
+      },
+      {
+        "label": "Location",
+        "value": "Sect Camp"
+      },
+      {
+        "label": "Armor",
+        "value": "High Robe of the Gurus"
+      },
+      {
+        "label": "Name",
+        "value": "Y'Berion"
+      },
+      {
+        "label": "Appearance",
+        "value": "Gothic"
+      },
+      {
+        "label": "Status",
+        "value": "Dead"
+      },
+      {
+        "label": "Religion",
+        "value": "Sleeper"
+      }
+    ]
+  },
+  "characters/cor-kalom": {
+    "wikiTitle": "Cor Kalom",
+    "intro": "Cor Kalom is a Guru of the Swamp Camp.  He and Cor Angar are the most powerful people in the camp besides Y'Berion.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Guru"
+      },
+      {
+        "label": "Level",
+        "value": "Default: 30 · End fight: 1000"
+      },
+      {
+        "label": "Location",
+        "value": "Sect Camp"
+      },
+      {
+        "label": "Weapons",
+        "value": "Kalom's Sword · Default: Sleep · End fight: Pyrokinesis ·"
+      },
+      {
+        "label": "Armor",
+        "value": "High Robe of the Gurus"
+      },
+      {
+        "label": "Name",
+        "value": "Cor Kalom"
+      }
+    ]
+  },
+  "characters/baal-parvez": {
+    "wikiTitle": "Baal Parvez",
+    "intro": "Baal Parvez is a Novice of the Swamp Camp recruiting new members in the Old Camp's marketplace.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Novice"
+      },
+      {
+        "label": "Level",
+        "value": "18"
+      },
+      {
+        "label": "Location",
+        "value": "Old Camp"
+      },
+      {
+        "label": "Weapons",
+        "value": "Steel Tongue"
+      },
+      {
+        "label": "Armor",
+        "value": "Light Novice's Armor"
+      },
+      {
+        "label": "Name",
+        "value": "Baal Parvez"
+      }
+    ]
+  },
+  "characters/xardas": {
+    "wikiTitle": "Xardas",
+    "intro": "|Tab2Name = Gothic II |Tab2 = |Tab3Name = Gothic 3 |Tab3 = |Tab4Name = G3: TB |Tab4 = |Tab5Name = ArcaniA |Tab5 = }} Xardas is an important character appearing in every installment of Gothic series.  A former High Magician of Fire, he becomes a Necromancer and leaves the Old Camp to study dark arts.  He becomes a mentor for the Nameless Hero and helps him to regain the world's balance, while pursuing his own goals.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Necromancer"
+      },
+      {
+        "label": "Level",
+        "value": "Changes as the hero progresses"
+      },
+      {
+        "label": "Location",
+        "value": "Xardas' Tower on Argaan"
+      },
+      {
+        "label": "Teaches",
+        "value": "Mana, Magic circles"
+      },
+      {
+        "label": "Weapons",
+        "value": "None"
+      },
+      {
+        "label": "Armor",
+        "value": "Unknown"
+      },
+      {
+        "label": "Voice Actor",
+        "value": "}}"
+      },
+      {
+        "label": "Name",
+        "value": "Xardas"
+      }
+    ]
+  },
+  "characters/gorn": {
+    "wikiTitle": "Gorn",
+    "intro": "Gorn is a key character from the Gothic series and one of the Four Friends.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "None"
+      },
+      {
+        "label": "Level",
+        "value": "None"
+      },
+      {
+        "label": "Location",
+        "value": "Thorniara · Stewark"
+      },
+      {
+        "label": "Weapons",
+        "value": "Exceptional Krush Zakach"
+      },
+      {
+        "label": "Armor",
+        "value": "Unknown"
+      },
+      {
+        "label": "Voice Actor",
+        "value": "?"
+      },
+      {
+        "label": "Name",
+        "value": "Gorn"
+      },
+      {
+        "label": "Tab2Name",
+        "value": "Gothic II"
+      }
+    ]
+  },
+  "characters/milten": {
+    "wikiTitle": "Milten",
+    "intro": "Milten is an important character appearing in every installment of Gothic series, except Gothic 3: The Beginning.  He was sent to the colony together with Diego, Gorn and Lester and later becomes a fire mage of the Old Camp.  One of the Four Friends, he supports Nameless Hero throughout his journey.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Fire Mage"
+      },
+      {
+        "label": "Level",
+        "value": "999"
+      },
+      {
+        "label": "Location",
+        "value": "Old Camp"
+      },
+      {
+        "label": "Weapons",
+        "value": "Fireball"
+      },
+      {
+        "label": "Armor",
+        "value": "Fire Robe"
+      },
+      {
+        "label": "Voice Actor",
+        "value": "John Sharian"
+      },
+      {
+        "label": "Name",
+        "value": "Milten"
+      }
+    ]
+  },
+  "characters/lester": {
+    "wikiTitle": "Lester",
+    "intro": "Lester is a character from Gothic, Gothic II, Gothic 3, ArcaniA and ArcaniA: Fall of Setarrif.  He is one of the Nameless Hero's best friends with a passion for Swampweed.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Novice"
+      },
+      {
+        "label": "Level",
+        "value": "999"
+      },
+      {
+        "label": "Location",
+        "value": "Sect Camp"
+      },
+      {
+        "label": "Weapons",
+        "value": "Lester's Mediator"
+      },
+      {
+        "label": "Armor",
+        "value": "Light Novice's Armor"
+      },
+      {
+        "label": "Voice Actor",
+        "value": "Eric Meyers"
+      },
+      {
+        "label": "Name",
+        "value": "Lester"
+      }
+    ]
+  },
+  "characters/ian": {
+    "wikiTitle": "Ian",
+    "intro": "Ian is a character from Gothic, and a boss of the Old Mine.",
+    "facts": [
+      {
+        "label": "Guild",
+        "value": "Shadow"
+      },
+      {
+        "label": "Level",
+        "value": "13"
+      },
+      {
+        "label": "Location",
+        "value": "Old Mine"
+      },
+      {
+        "label": "Weapons",
+        "value": "Hunting Bow · Battle Sword"
+      },
+      {
+        "label": "Armor",
+        "value": "Shadow's Dress"
+      },
+      {
+        "label": "Voice Actor",
+        "value": "Colin McFarlane"
+      },
+      {
+        "label": "Name",
+        "value": "Ian"
+      },
+      {
+        "label": "Appearance",
+        "value": "Gothic"
+      }
+    ]
+  },
+  "bestiary/scavenger": {
+    "wikiTitle": "Scavenger",
+    "intro": "|Tab2Name = Gothic II |Tab2 = |Tab3Name = Gothic II NotR |Tab3 = |Tab4Name = Gothic 3 |Tab4 = |Tab5Name = Gothic 3: FG |Tab5 = |Tab6Name = Gothic 3: TB |Tab6 = |Tab7Name = ArcaniA |Tab7 = |Tab8Name = GPT |Tab8 = |Tab9Name = Nyras Prologue |Tab9 = }} Scavenger is a flightless bird that appears in every installment of Gothic and ArcaniA.",
+    "facts": [
+      {
+        "label": "Level",
+        "value": "5"
+      },
+      {
+        "label": "HP",
+        "value": "40"
+      },
+      {
+        "label": "Experience",
+        "value": "50"
+      },
+      {
+        "label": "Strength / Dexterity",
+        "value": "8/8"
+      },
+      {
+        "label": "Loot",
+        "value": "2x Raw Meat"
+      },
+      {
+        "label": "Blunt protection",
+        "value": "9"
+      },
+      {
+        "label": "Edge protection",
+        "value": "9"
+      },
+      {
+        "label": "Arrow protection",
+        "value": "5"
+      }
+    ]
+  },
+  "bestiary/bloodfly": {
+    "wikiTitle": "Bloodfly",
+    "intro": "is a giant insect creature.",
+    "facts": []
+  },
+  "bestiary/wolf": {
+    "wikiTitle": "Wolf",
+    "intro": "Wolf can refer to: * Wolf (animal) * Wolf (person)",
+    "facts": []
+  },
+  "bestiary/lurker": {
+    "wikiTitle": "Lurker",
+    "intro": "== Gallery == === Gothic 1 Remake === <gallery heights=150px mode=packed> G1R trailers - Nameless Hero attacks lurker.",
+    "facts": []
+  },
+  "bestiary/minecrawler": {
+    "wikiTitle": "Minecrawler's Egg",
+    "intro": "'''Minecrawler's Egg''' is a quest item from Gothic.  === Locations === ==== Lying around ==== {| class=\"wikitable\" style=\"table-layout:auto; width:auto\" !  Level !!",
+    "facts": [
+      {
+        "label": "title",
+        "value": "Minecrawler's Egg"
+      },
+      {
+        "label": "Buy value",
+        "value": "100 Ore Nuggets"
+      }
+    ]
+  },
+  "bestiary/troll": {
+    "wikiTitle": "Troll Figurine",
+    "intro": "A figurine of a Troll throwing a Goblin was sold on a web shop before the release of Gothic as official merchandise.  · Today it is very rare and expensive.  <gallery heights=150px mode=packed> Troll Figurine.",
+    "facts": []
+  },
+  "bestiary/shadowbeast": {
+    "wikiTitle": "Shadowbeasts",
+    "intro": "== Gallery == === Gothic 1 Remake === <gallery heights=150px mode=packed> G1R trailers - Shadowbeast.",
+    "facts": []
+  },
+  "bestiary/orc": {
+    "wikiTitle": "Orc Arena",
+    "intro": "Orc Arena is a location situated to the west of the Old Camp in the centre of the Valley of Mines.",
+    "facts": [
+      {
+        "label": "Icon",
+        "value": "Map_Gothic_Icon.webp"
+      },
+      {
+        "label": "Name",
+        "value": "Orc Arena"
+      },
+      {
+        "label": "Type",
+        "value": "Arena"
+      },
+      {
+        "label": "Location",
+        "value": "Valley of Mines"
+      },
+      {
+        "label": "Inhabitants",
+        "value": "2 Orc Warriors"
+      },
+      {
+        "label": "Quests",
+        "value": "None"
+      },
+      {
+        "label": "Appearances",
+        "value": "Gothic"
+      },
+      {
+        "label": "Teleportation",
+        "value": "No"
+      }
+    ]
+  },
+  "bestiary/skeleton-mage": {
+    "wikiTitle": "Skeleton Mage of the Fog Tower",
+    "intro": "is a unique Skeleton Mage under the Fog Tower.  May be involved in The Stranger's demise.",
+    "facts": []
+  },
+  "quests/welcome-to-the-colony": {
+    "wikiTitle": "Welcome to the Colony!",
+    "intro": "Welcome to the Colony is the opening chapter in Gothic and Gothic Playable Teaser",
+    "facts": [
+      {
+        "label": "Reward",
+        "value": "and on a condition of sparing him The Judge's ramblings"
+      }
+    ]
+  },
+  "quests/joining-the-old-camp": {
+    "wikiTitle": "Admission to the Old Camp",
+    "intro": "Admission to the Old Camp is a main quest in Gothic.  On completion you will join the shadows of the Old Camp.  · You have to complete either this quest, Admission to the New Camp or Admission to the Swamp Camp to be able to advance in the story.",
+    "facts": [
+      {
+        "label": "Type",
+        "value": "Main quest"
+      },
+      {
+        "label": "Reward",
+        "value": "=="
+      },
+      {
+        "label": "Experience",
+        "value": "750 XP"
+      }
+    ]
+  },
+  "quests/joining-the-new-camp": {
+    "wikiTitle": "Admission to the New Camp",
+    "intro": "Admission to the New Camp is a main quest in Gothic.  On completion you will join the Rogues of the New Camp.  · You have to complete either this quest, Admission to the Old Camp or Admission to the Swamp Camp to be able to advance in the story.",
+    "facts": [
+      {
+        "label": "Type",
+        "value": "Main quest"
+      },
+      {
+        "label": "Reward",
+        "value": "for the Canvassing of Customers quest given by the Novice Baal Kagan, who is also located in the New"
+      },
+      {
+        "label": "Experience",
+        "value": "200 XP"
+      }
+    ]
+  },
+  "quests/joining-the-swamp-camp": {
+    "wikiTitle": "Admission to the Swamp Camp",
+    "intro": "Admission to the Swamp Camp is a main quest in Gothic.  On completion you will join the Novices of the Swamp Camp.  · You have to complete either this quest, Admission to the Old Camp or Admission to the New Camp to be able to advance in the story.",
+    "facts": [
+      {
+        "label": "Type",
+        "value": "Main quest"
+      },
+      {
+        "label": "Reward",
+        "value": "ask for his help in joining the brotherhood"
+      },
+      {
+        "label": "Experience",
+        "value": "200 XP"
+      }
+    ]
+  },
+  "quests/the-stranger": {
+    "wikiTitle": "The Stranger",
+    "intro": "* The Stranger (character) * The Stranger (Quest)",
+    "facts": []
+  },
+  "quests/the-invocation-of-the-sleeper": {
+    "wikiTitle": "The Invocation of the Sleeper",
+    "intro": "== Gallery == === Gothic 1 Remake === <gallery heights=150px mode=packed> G1R trailers (MakingOf4) - Sleeper invocation drinking potions. webp|Swamp Camp members drinking potions G1R trailers - YBerion holds a focus stone during the Invocation of the Sleeper. png|Y'Berion holds a focus stone for the ritual G1R trailers - Nameless Hero at Sleeper invocation.",
+    "facts": []
+  },
+  "quests/search-for-the-focus-stones": {
+    "wikiTitle": "Search for the Focus Stones",
+    "intro": "Search for the Focus Stones is a quest in Gothic.",
+    "facts": [
+      {
+        "label": "Reward",
+        "value": "of 20 potions and to Cronos to recieve 1000 ore"
+      }
+    ]
+  },
+  "quests/xardas": {
+    "wikiTitle": "Xardas",
+    "intro": "|Tab2Name = Gothic II |Tab2 = |Tab3Name = Gothic 3 |Tab3 = |Tab4Name = G3: TB |Tab4 = |Tab5Name = ArcaniA |Tab5 = }} Xardas is an important character appearing in every installment of Gothic series.  A former High Magician of Fire, he becomes a Necromancer and leaves the Old Camp to study dark arts.  He becomes a mentor for the Nameless Hero and helps him to regain the world's balance, while pursuing his own goals.",
+    "facts": [
+      {
+        "label": "Location",
+        "value": "Xardas' Tower on Argaan"
+      },
+      {
+        "label": "Name",
+        "value": "Xardas"
+      },
+      {
+        "label": "Guild",
+        "value": "Necromancer"
+      },
+      {
+        "label": "Level",
+        "value": "Changes as the hero progresses"
+      },
+      {
+        "label": "Weapons",
+        "value": "None"
+      },
+      {
+        "label": "Armor",
+        "value": "Unknown"
+      },
+      {
+        "label": "Pickpocket",
+        "value": "Unavailable"
+      },
+      {
+        "label": "Teaches",
+        "value": "Mana, Magic circles"
+      }
+    ]
+  },
+  "quests/uriziel": {
+    "wikiTitle": "Uriziel",
+    "intro": "| Tab2Name = identified | Tab2 = | Tab3Name = charged | Tab3 = | Tab4Name = rune removed | Tab4 = }}Uriziel is a legendary sword in Gothic and Gothic Remake.",
+    "facts": []
+  },
+  "quests/the-awakening-of-the-sleeper": {
+    "wikiTitle": "The Awakening of the Sleeper",
+    "intro": "is a quest in Gothic.",
+    "facts": [
+      {
+        "label": "Reward",
+        "value": "=="
+      }
+    ]
+  },
+  "artifacts/focus-stone-troll-canyon": {
+    "wikiTitle": "Focus in the Troll Canyon",
+    "intro": "Focus in the Troll Canyon is a quest in Gothic.",
+    "facts": []
+  },
+  "artifacts/focus-stone-monastery-ruin": {
+    "wikiTitle": "Focus in the Monastery Ruins",
+    "intro": "Focus in the Monastery Ruins is a quest in Gothic.",
+    "facts": []
+  },
+  "artifacts/focus-stone-mountain-fort": {
+    "wikiTitle": "Mountain Fort",
+    "intro": "Mountain Fort, also known as Mountain Fortress is a location in Gothic and Gothic II, situated in the south of the Valley of Mines.  A former place for a focus stone, it becomes a lair for the rock dragon Pedrakhan.",
+    "facts": []
+  },
+  "artifacts/uriziel": {
+    "wikiTitle": "Uriziel",
+    "intro": "| Tab2Name = identified | Tab2 = | Tab3Name = charged | Tab3 = | Tab4Name = rune removed | Tab4 = }}Uriziel is a legendary sword in Gothic and Gothic Remake.",
+    "facts": []
+  },
+  "weapons/sword": {
+    "wikiTitle": "Sword (HeroSword20)",
+    "intro": "Sword is an unused sword from Gothic.  === Locations === ==== In NPC inventories ==== {| class=\"wikitable\" style=\"table-layout:auto; width:auto\" !  NPC !!",
+    "facts": [
+      {
+        "label": "Type",
+        "value": "One-handed"
+      },
+      {
+        "label": "Damage",
+        "value": "0 (blade)"
+      },
+      {
+        "label": "Attributes required",
+        "value": "Strength: 0"
+      },
+      {
+        "label": "Buy value",
+        "value": "31"
+      },
+      {
+        "label": "Sell value",
+        "value": "16"
+      },
+      {
+        "label": "Owner / s",
+        "value": "N/A"
+      },
+      {
+        "label": "Merchants",
+        "value": "None"
+      },
+      {
+        "label": "Name",
+        "value": "Sword"
+      }
+    ]
+  },
+  "weapons/mace": {
+    "wikiTitle": "Mace",
+    "intro": "Mace is a weapon from Gothic.  === Locations === ==== Lying around ==== {| class=\"wikitable\" style=\"table-layout:auto; width:auto\" !  Level !!",
+    "facts": [
+      {
+        "label": "Type",
+        "value": "One-handed"
+      },
+      {
+        "label": "Damage",
+        "value": "23 (blunt)"
+      },
+      {
+        "label": "Attributes required",
+        "value": "Strength: 10"
+      },
+      {
+        "label": "Buy value",
+        "value": "55"
+      },
+      {
+        "label": "Sell value",
+        "value": "28"
+      },
+      {
+        "label": "Owner / s",
+        "value": "Homer · Talas · Rogues · Goblin warriors"
+      },
+      {
+        "label": "Merchants",
+        "value": "Chapter II: · Sharky · Darrion"
+      },
+      {
+        "label": "Name",
+        "value": "Mace"
+      }
+    ]
+  },
+  "weapons/axe": {
+    "wikiTitle": "Axe",
+    "intro": "Axe is a weapon from Gothic.  === Locations === ==== Lying around ==== {| class=\"wikitable\" style=\"table-layout:auto; width:auto\" !  Level !!",
+    "facts": [
+      {
+        "label": "Type",
+        "value": "One-handed"
+      },
+      {
+        "label": "Damage",
+        "value": "29 (blade)"
+      },
+      {
+        "label": "Attributes required",
+        "value": "Strength: 12"
+      },
+      {
+        "label": "Buy value",
+        "value": "320"
+      },
+      {
+        "label": "Sell value",
+        "value": "160"
+      },
+      {
+        "label": "Name",
+        "value": "Axe"
+      },
+      {
+        "label": "Appearances",
+        "value": "Gothic · Gothic II · Gothic 3: The Beginning"
+      },
+      {
+        "label": "Quest item",
+        "value": "No"
+      }
+    ]
+  },
+  "weapons/bow": {
+    "wikiTitle": "Bow of Death",
+    "intro": "Bow of Death is a bow from Gothic.  === Locations === ==== In NPC inventories ==== {| class=\"wikitable\" style=\"table-layout:auto; width:auto\" !  NPC !!",
+    "facts": [
+      {
+        "label": "Type",
+        "value": "Bow"
+      },
+      {
+        "label": "Damage",
+        "value": "88"
+      },
+      {
+        "label": "Attributes required",
+        "value": "Dexterity: 50"
+      },
+      {
+        "label": "Buy value",
+        "value": "1000"
+      },
+      {
+        "label": "Sell value",
+        "value": "500"
+      },
+      {
+        "label": "Owner / s",
+        "value": "None"
+      },
+      {
+        "label": "Merchants",
+        "value": "Chapter V: · Wolf · Cavalorn"
+      },
+      {
+        "label": "Name",
+        "value": "Bow of Death"
+      }
+    ]
+  },
+  "weapons/crossbow": {
+    "wikiTitle": "Crossbow",
+    "intro": "Crossbow is a crossbow from Gothic.  === Locations === ==== In containers ==== {| class=\"wikitable\" style=\"table-layout:auto; width:auto\" !  Level !!",
+    "facts": [
+      {
+        "label": "Type",
+        "value": "Crossbow"
+      },
+      {
+        "label": "Damage",
+        "value": "85"
+      },
+      {
+        "label": "Attributes required",
+        "value": "Dexterity: 42"
+      },
+      {
+        "label": "Buy value",
+        "value": "780"
+      },
+      {
+        "label": "Sell value",
+        "value": "390"
+      },
+      {
+        "label": "Owner / s",
+        "value": "None"
+      },
+      {
+        "label": "Merchants",
+        "value": "Chapter IV: · Wolf · Scorpio"
+      },
+      {
+        "label": "Name",
+        "value": "Crossbow"
+      }
+    ]
+  },
+  "armors/blunt-edge-point": {
+    "wikiTitle": "Armor Amulet",
+    "intro": "Armor Amulet is an amulet from Gothic.  ==Locations== ==== In containers ==== {| class=\"wikitable\" style=\"table-layout:auto; width:auto\" !  Level !!",
+    "facts": []
+  },
+  "armors/fire-ice-wind-energy": {
+    "wikiTitle": "Armor Amulet",
+    "intro": "Armor Amulet is an amulet from Gothic.  ==Locations== ==== In containers ==== {| class=\"wikitable\" style=\"table-layout:auto; width:auto\" !  Level !!",
+    "facts": []
+  },
+  "armors/falling": {
+    "wikiTitle": "Armor Amulet",
+    "intro": "Armor Amulet is an amulet from Gothic.  ==Locations== ==== In containers ==== {| class=\"wikitable\" style=\"table-layout:auto; width:auto\" !  Level !!",
+    "facts": []
+  },
+  "potions/prepared-dreamcall": {
+    "wikiTitle": "Prepared Dreamcall",
+    "intro": "Prepared Dreamcall is a quest item from Gothic.",
+    "facts": [
+      {
+        "label": "Buy value",
+        "value": "200 Ore Nuggets"
+      },
+      {
+        "label": "title",
+        "value": "Prepared Dreamcall"
+      }
+    ]
+  },
+  "potions/elixir-of-strength": {
+    "wikiTitle": "Elixir of Strength",
+    "intro": "Elixir of Strength is a potion from Gothic.  === Locations === ==== Lying around ==== {| class=\"wikitable\" style=\"table-layout:auto; width:auto\" !  Level !!",
+    "facts": [
+      {
+        "label": "Buy value",
+        "value": "800 Ore Nuggets"
+      },
+      {
+        "label": "title",
+        "value": "Elixir of Strength"
+      }
+    ]
+  },
+  "potions/elixir-of-dexterity": {
+    "wikiTitle": "Elixir of Dexterity",
+    "intro": "Elixir of Dexterity is a potion from Gothic.  === Locations === ==== Lying around ==== {| class=\"wikitable\" style=\"table-layout:auto; width:auto\" !  Level !!",
+    "facts": [
+      {
+        "label": "Buy value",
+        "value": "800 Ore Nuggets"
+      },
+      {
+        "label": "title",
+        "value": "Elixir of Dexterity"
+      }
+    ]
+  },
+  "potions/swampweed": {
+    "wikiTitle": "Swampweed",
+    "intro": "|Tab2Name = Gothic II |Tab2 = |Tab3Name = GII NotR |Tab3 = |Tab4Name = Gothic 3 |Tab4 = |Tab5Name = G3: FG |Tab5 = |Tab6Name = ArcaniA |Tab6 = }} Swampweed is a narcotic plant from every Gothic game and ArcaniA.  Its unique properties are used for relaxation purposes.",
+    "facts": [
+      {
+        "label": "Type",
+        "value": "Herb"
+      },
+      {
+        "label": "Buy value",
+        "value": "8"
+      },
+      {
+        "label": "Sell value",
+        "value": "4"
+      }
+    ]
+  },
+  "runes/ice-bolt": {
+    "wikiTitle": "Ice Bolt",
+    "intro": "Ice Bolt is a spell from Gothic.  · === Locations (scroll) === ==== In NPC inventories ==== {| class=\"wikitable\" style=\"table-layout:auto; width:auto\" !  NPC !!",
+    "facts": []
+  },
+  "runes/sleep-charm": {
+    "wikiTitle": "Sleep",
+    "intro": "Sleep is a spell from Gothic.  · Puts the target to sleep.  === Locations (scroll) === ==== In NPC inventories ==== {| class=\"wikitable\" style=\"table-layout:auto; width:auto\" !",
+    "facts": []
+  },
+  "trophies/claws-teeth": {
+    "wikiTitle": "Claws",
+    "intro": "Claws is a miscellaneous item from Gothic.  === Locations === ==== In containers ==== {| class=\"wikitable\" style=\"table-layout:auto; width:auto\" !  Level !!",
+    "facts": [
+      {
+        "label": "title",
+        "value": "Claws"
+      },
+      {
+        "label": "Buy value",
+        "value": "15 Ore Nuggets"
+      }
+    ]
+  },
+  "trophies/minecrawler-secretion": {
+    "wikiTitle": "Minecrawler's Egg",
+    "intro": "'''Minecrawler's Egg''' is a quest item from Gothic.  === Locations === ==== Lying around ==== {| class=\"wikitable\" style=\"table-layout:auto; width:auto\" !  Level !!",
+    "facts": [
+      {
+        "label": "title",
+        "value": "Minecrawler's Egg"
+      },
+      {
+        "label": "Buy value",
+        "value": "100 Ore Nuggets"
+      }
+    ]
+  },
+  "other/strength": {
+    "wikiTitle": "Strength",
+    "intro": "Strength is one of the attributes in Gothic games.  It is used to wield melee weapons.",
+    "facts": []
+  },
+  "other/dexterity": {
+    "wikiTitle": "Dexterity",
+    "intro": "Dexterity is one of the attributes in Gothic games.",
+    "facts": []
+  },
+  "other/alchemy": {
+    "wikiTitle": "Alchemy bookstands",
+    "intro": "These bookstands are scattered throughout Khorinis including Xardas's tower.",
+    "facts": []
+  },
+  "other/ore": {
+    "wikiTitle": "Ore Barons",
+    "intro": "Ore Barons is a non-joinable faction from Gothic.  They are rulers of the Old Camp and one of the richest and most influential people in the colony.  Gomez is the leader of the ore barons and the entire Old Camp.",
+    "facts": []
+  }
+}
