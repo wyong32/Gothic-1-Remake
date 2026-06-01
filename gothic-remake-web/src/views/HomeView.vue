@@ -476,57 +476,69 @@
 
     <section class="about-section" id="about" aria-labelledby="about-title">
       <div class="container">
-        <header class="section-head">
+        <header class="about-head">
+          <p class="about-eyebrow">Fan Project · Independent Guide</p>
           <h2 id="about-title">About Gothic 1 Remake Guide</h2>
-          <p>
+          <p class="about-lead">
             Walkthroughs, camp builds, and quest notes for Alkimia Interactive's 2026 rebuild of the
             Valley of Mines — still no minimap, still ore-only trainers.
           </p>
         </header>
 
-        <article class="about-panel">
-          <figure class="about-visual">
-            <img
-              src="/images/about-img.webp"
-              alt="Gothic 1 Remake key art"
-              loading="lazy"
-              width="640"
-              height="360"
-            />
-          </figure>
+        <div class="about-layout">
+          <article class="about-story">
+            <figure class="about-story__visual">
+              <img
+                src="/images/about-img.webp"
+                alt="Gothic 1 Remake key art"
+                loading="lazy"
+                width="640"
+                height="360"
+              />
+            </figure>
 
-          <div class="about-body">
-            <p class="about-intro">
-              Gothic 1 Remake sends you into the barrier with journal directions instead of waypoints.
-              This site documents how to survive the drop, pick a camp, clear six chapters, and look up
-              trainers or items when NPC dialogue is not enough.
-            </p>
+            <div class="about-story__body">
+              <p class="about-story__intro">
+                Gothic 1 Remake sends you into the barrier with journal directions instead of
+                waypoints. This site documents how to survive the drop, pick a camp, clear six
+                chapters, and look up trainers or items when NPC dialogue is not enough.
+              </p>
 
-            <div class="about-columns">
-              <div>
-                <h3>What We Cover</h3>
-                <p>
-                  Beginner survival, Old / New / Swamp builds, a full quest directory with XP rewards,
-                  a landmark map, wiki stats, and a Remake-vs-2001 comparison for launch week.
-                </p>
-              </div>
-              <div>
-                <h3>Who It Is For</h3>
-                <p>
-                  First runs after the Exchange, veterans replaying skipped camp routes, and anyone
-                  tracing focus stones or Sleeper ritual steps without spoiling the full plot.
-                </p>
-              </div>
-              <div>
-                <h3>Accuracy</h3>
-                <p>
-                  Fan-made — not THQ Nordic or Alkimia. Numbers follow Gothic 1 baseline until the
-                  <time datetime="2026-06-05">June 5, 2026</time> ship is verified in-game.
-                </p>
-              </div>
+              <ul class="about-pillars">
+                <li>
+                  <strong>What we cover</strong>
+                  <span>
+                    Beginner survival, three-camp builds, quest directory, landmark map, wiki stats,
+                    and Remake-vs-2001 comparisons for launch week.
+                  </span>
+                </li>
+                <li>
+                  <strong>Who it is for</strong>
+                  <span>
+                    First runs after the Exchange, veterans replaying skipped camp routes, and anyone
+                    tracing focus stones without spoiling the full plot.
+                  </span>
+                </li>
+                <li>
+                  <strong>Accuracy</strong>
+                  <span>
+                    Fan-made — not THQ Nordic or Alkimia. Numbers follow Gothic 1 baseline until the
+                    <time datetime="2026-06-05">June 5, 2026</time> ship is verified in-game.
+                  </span>
+                </li>
+              </ul>
+
+              <p class="about-story__foot">
+                Editorial details and contact:
+                <RouterLink to="/legal/about-us">About Us</RouterLink>
+                ·
+                <a href="mailto:wyong@gothic1remake.com">wyong@gothic1remake.com</a>
+              </p>
             </div>
-          </div>
-        </article>
+          </article>
+
+          <AboutComments />
+        </div>
       </div>
     </section>
 
@@ -613,6 +625,7 @@
 <script setup>
 import { computed, ref } from 'vue'
 import { RouterLink } from 'vue-router'
+import AboutComments from '@/components/AboutComments.vue'
 import guides from '@/data/guides.js'
 import imageManifest from '@/wiki/imageManifest.json'
 import '@/assets/styles/guides.css'
@@ -1749,11 +1762,41 @@ function formatDate(value) {
   border-image: var(--gradient-divider) 1;
 }
 
-.about-panel {
+.about-head {
+  max-width: 52rem;
+  margin-bottom: 2rem;
+}
+
+.about-eyebrow {
+  margin: 0 0 0.75rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent-3);
+}
+
+.about-head h2 {
+  margin: 0 0 0.65rem;
+}
+
+.about-lead {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: color-mix(in srgb, var(--color-text) 78%, var(--color-muted));
+}
+
+.about-layout {
   display: grid;
-  grid-template-columns: minmax(240px, 38%) minmax(0, 1fr);
-  gap: 0;
+  grid-template-columns: minmax(0, 1.05fr) minmax(300px, 0.95fr);
+  gap: 1.25rem;
   align-items: stretch;
+}
+
+.about-story {
+  display: flex;
+  flex-direction: column;
   border: 1px solid var(--color-border-strong);
   border-radius: var(--radius-md);
   background: var(--gradient-panel);
@@ -1761,55 +1804,72 @@ function formatDate(value) {
   overflow: hidden;
 }
 
-.about-visual {
+.about-story__visual {
   margin: 0;
-  min-height: 100%;
+  aspect-ratio: 16 / 9;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-accent) 16%, var(--color-border));
 }
 
-.about-visual img {
+.about-story__visual img {
   display: block;
   width: 100%;
   height: 100%;
-  min-height: 100%;
   object-fit: cover;
   object-position: center top;
 }
 
-.about-body {
+.about-story__body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 1.35rem;
-  padding: clamp(1.35rem, 2.5vw, 2rem);
-  border-left: 1px solid color-mix(in srgb, var(--color-accent) 18%, var(--color-border));
+  gap: 1.15rem;
+  padding: clamp(1.25rem, 2.5vw, 1.75rem);
 }
 
-.about-intro {
+.about-story__intro {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 0.94rem;
   line-height: 1.7;
   color: color-mix(in srgb, var(--color-text) 86%, var(--color-muted));
 }
 
-.about-columns {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem 1.25rem;
+.about-pillars {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  list-style: none;
 }
 
-.about-columns h3 {
-  margin: 0 0 0.4rem;
+.about-pillars li {
+  padding: 0.75rem 0.85rem;
+  border: 1px solid color-mix(in srgb, var(--color-accent) 14%, var(--color-border));
+  border-radius: var(--radius-sm);
+  background: color-mix(in srgb, var(--color-bg) 55%, transparent);
+}
+
+.about-pillars strong {
+  display: block;
+  margin-bottom: 0.25rem;
   font-family: var(--font-display);
-  font-size: 1.05rem;
-  line-height: 1.25;
+  font-size: 0.95rem;
   color: var(--color-accent-3);
 }
 
-.about-columns p {
-  margin: 0;
-  font-size: 0.86rem;
-  line-height: 1.6;
+.about-pillars span {
+  display: block;
+  font-size: 0.84rem;
+  line-height: 1.55;
   color: var(--color-muted);
+}
+
+.about-story__foot {
+  margin: 0;
+  padding-top: 0.35rem;
+  font-size: 0.82rem;
+  color: var(--color-muted);
+}
+
+.about-story__foot a {
+  font-weight: 600;
 }
 
 .faq-section {
@@ -1886,22 +1946,7 @@ function formatDate(value) {
     grid-template-columns: 1fr;
   }
 
-  .about-panel {
-    grid-template-columns: 1fr;
-  }
-
-  .about-body {
-    border-left: 0;
-    border-top: 1px solid color-mix(in srgb, var(--color-accent) 18%, var(--color-border));
-  }
-
-  .about-visual img {
-    aspect-ratio: 16 / 9;
-    height: auto;
-    min-height: 0;
-  }
-
-  .about-columns {
+  .about-layout {
     grid-template-columns: 1fr;
   }
 
