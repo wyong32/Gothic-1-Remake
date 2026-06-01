@@ -3,7 +3,7 @@
     <section class="page-hero-section" aria-labelledby="beginner-title">
       <div class="page-hero-content">
           <p class="page-eyebrow">Chapter 1 · Mining Valley Survival</p>
-          <h1 id="beginner-title">Gothic 1 Remake Beginner Guide</h1>
+          <h1 id="beginner-title">Gothic 1 Remake — Beginner Guide, Survival &amp; First Hours</h1>
           <p class="page-intro">
             Unlike modern action RPGs with glowing trails and dense minimap icons, Gothic 1 Remake
             stays true to its hardcore German RPG roots. In the magical penal colony of the Mining

@@ -4,7 +4,7 @@
       <section class="page-hero-section" aria-labelledby="wiki-title">
         <div class="page-hero-content">
           <p class="page-eyebrow">Encyclopedia Index</p>
-          <h1 id="wiki-title">Gothic 1 Remake Wiki</h1>
+          <h1 id="wiki-title">Gothic 1 Remake — Wiki Reference, NPCs, Items &amp; Lore</h1>
           <p class="page-intro">
             Twelve reference categories with infobox stats, lore intros, and local artwork — Gods,
             Regions, Characters, Bestiary, Quests, Artifacts, Weapons, Armors, Potions, Runes,

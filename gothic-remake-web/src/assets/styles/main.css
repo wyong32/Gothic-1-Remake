@@ -329,7 +329,9 @@ img {
 
 .page-hero-section h1 {
   margin-top: 0.9rem;
-  line-height: 1.08;
+  line-height: 1.12;
+  font-size: clamp(1.65rem, 2.8vw, 2.15rem);
+  font-weight: 700;
 }
 
 .page-intro {

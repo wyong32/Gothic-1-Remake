@@ -5,7 +5,7 @@
         <div class="hero-content">
           <div class="hero-copy">
             <p class="hero-eyebrow">Valley of Mines · Releases June 5, 2026</p>
-            <h1 id="hero-title">Gothic 1 Remake Guide</h1>
+            <h1 id="hero-title">Gothic 1 Remake — Walkthroughs, Wiki, Quests, Builds &amp; Map</h1>
             <p class="hero-lead">
               Walkthroughs, faction builds, quest rewards, and wiki lookups for Alkimia Interactive's
               2026 rebuild — the colony still has no quest markers, no minimap, and trainers who only
@@ -806,6 +806,11 @@ function formatDate(value) {
   margin-top: 0.75rem;
   color: var(--color-muted);
   font-size: 1.05rem;
+}
+
+.hero-section h1 {
+  font-size: clamp(1.75rem, 3.2vw, 2.35rem);
+  line-height: 1.12;
 }
 
 .hero-section {

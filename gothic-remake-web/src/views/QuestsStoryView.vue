@@ -3,7 +3,7 @@
     <section class="page-hero-section" aria-labelledby="quests-title">
       <div class="page-hero-content">
           <p class="page-eyebrow">Main Story · Chapters 1–6 · Checklist Hub</p>
-          <h1 id="quests-title">Gothic 1 Remake Quests &amp; Story</h1>
+          <h1 id="quests-title">Gothic 1 Remake — Quests, Story Chapters &amp; Walkthrough Hub</h1>
           <p class="page-intro">
             The Mining Valley is a lawless prison where every choice has consequences. Quests have no
             waypoint markers — rely on NPC dialogue, environment clues, and your journal. Use this hub

@@ -3,7 +3,7 @@
     <section class="page-hero-section" aria-labelledby="factions-title">
       <div class="page-hero-content">
           <p class="page-eyebrow">Camp Oath · Class Paths · LP Builds</p>
-          <h1 id="factions-title">Gothic 1 Remake Factions &amp; Builds</h1>
+          <h1 id="factions-title">Gothic 1 Remake — Factions, Builds &amp; Camp Comparison</h1>
           <p class="page-intro">
             Choosing your faction and planning your character build are the two most important decisions
             in Gothic 1 Remake. Camp allegiance locks class progression, high-tier armor sets, and

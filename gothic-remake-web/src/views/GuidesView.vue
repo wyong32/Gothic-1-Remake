@@ -4,7 +4,7 @@
       <section class="page-hero-section" aria-labelledby="guides-title">
         <div class="page-hero-content">
           <p class="page-eyebrow">Player Guides</p>
-          <h1 id="guides-title">Gothic 1 Remake Guides</h1>
+          <h1 id="guides-title">Gothic 1 Remake — Player Guides, Tips &amp; Remake Deep Dives</h1>
           <p class="page-intro">
             Long-form write-ups for systems the wiki does not explain — Remake changes, combat rhythm,
             economy loops, and launch-week fixes. Pick an article, read the sections, skip what you

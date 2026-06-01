@@ -4,7 +4,7 @@
       <div class="page-hero-split">
         <div class="page-hero-content">
           <p class="page-eyebrow">World Atlas · Mining Valley</p>
-          <h1 id="map-title">Gothic 1 Remake Interactive Map</h1>
+          <h1 id="map-title">Gothic 1 Remake — Interactive Map, Zones &amp; Landmark Navigation</h1>
           <p class="page-intro">
             The Mining Valley is a vertical, multi-layered penal colony — navigating elevation matters as
             much as combat alignment. The Remake streamlines some ladder networks into staircases, but

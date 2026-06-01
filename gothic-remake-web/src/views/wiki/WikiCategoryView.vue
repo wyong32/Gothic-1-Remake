@@ -4,7 +4,7 @@
       <div class="page-hero-content">
           <RouterLink to="/wiki" class="wiki-back-link">← Wiki categories</RouterLink>
           <p class="page-eyebrow">{{ category.title }} · Gothic 1 Remake</p>
-          <h1 :id="`${category.slug}-title`">Gothic 1 Remake Wiki — {{ category.title }}</h1>
+          <h1 :id="`${category.slug}-title`">Gothic 1 Remake — Wiki Reference: {{ category.title }}</h1>
           <p class="page-intro">{{ category.description }}</p>
           <ul class="page-meta">
             <li><strong>Entries:</strong> {{ entryCount }}</li>
