@@ -8,6 +8,8 @@
             class="footer-brand-image"
             src="/images/logo.webp"
             alt=""
+            width="40"
+            height="40"
           />
           <span class="footer-brand-text">Gothic 1 Remake Guide</span>
           </div>
@@ -90,7 +92,8 @@ const year = new Date().getFullYear()
 
 .footer-brand-image {
   width: 40px;
-  height: auto;
+  height: 40px;
+  object-fit: contain;
 }
 
 .footer-brand-text {

@@ -7,6 +7,8 @@
             class="site-logo-image"
             src="/images/logo.webp"
             alt=""
+            width="40"
+            height="40"
           />
           <span class="site-logo-text">
             <strong>Gothic 1 Remake</strong>
@@ -87,7 +89,8 @@ watch(
 
 .site-logo-image {
   width: 40px;
-  height: auto;
+  height: 40px;
+  object-fit: contain;
 }
 
 .site-logo-text {

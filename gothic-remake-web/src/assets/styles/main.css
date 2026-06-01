@@ -19,9 +19,8 @@
 
   --color-on-cta: #f8f0e6;
   --page-bg-image: url('/images/page_bg.webp');
-  /* 本地字体 — EB Garamond 标题 / Source Sans 3 正文（main.js 引入） */
-  --font-display: 'EB Garamond', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
-  --font-body: 'Source Sans 3', 'Segoe UI Variable', 'Segoe UI', system-ui, sans-serif;
+  --font-display: 'Iowan Old Style', 'Palatino Linotype', Georgia, 'Times New Roman', serif;
+  --font-body: 'Segoe UI Variable', 'Segoe UI', system-ui, -apple-system, sans-serif;
 
   /* 渐变与装饰 token */
   --gradient-barrier: linear-gradient(
