@@ -18,9 +18,12 @@
   gap: 0.35rem;
   margin-top: 1rem;
   list-style: none;
+  max-width: 100%;
 }
 
 .guide-tag-row li {
+  max-width: 100%;
+  overflow-wrap: anywhere;
   padding: 0.2rem 0.55rem;
   border-radius: 999px;
   border: 1px solid color-mix(in srgb, var(--color-accent-3) 35%, var(--color-border));
@@ -195,8 +198,10 @@
 }
 
 .guide-table-wrap {
+  max-width: 100%;
   overflow-x: auto;
   margin: 0.25rem 0;
+  -webkit-overflow-scrolling: touch;
 }
 
 .guide-table {

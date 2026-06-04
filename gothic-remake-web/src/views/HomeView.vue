@@ -824,11 +824,13 @@ function formatDate(value) {
 .hero-section h1 {
   font-size: clamp(1.75rem, 3.2vw, 2.35rem);
   line-height: 1.12;
+  overflow-wrap: break-word;
 }
 
 .hero-section {
   position: relative;
   padding: 6.5rem 0 4rem;
+  overflow-x: clip;
 }
 
 .hero-section::after {
@@ -852,9 +854,15 @@ function formatDate(value) {
 
 .hero-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 3rem;
   align-items: start;
+}
+
+.hero-copy,
+.hero-video-wrap {
+  min-width: 0;
+  max-width: 100%;
 }
 
 .hero-lead {
@@ -876,9 +884,12 @@ function formatDate(value) {
   gap: 0.45rem;
   margin-top: 2rem;
   list-style: none;
+  max-width: 100%;
 }
 
 .hero-tags li {
+  max-width: 100%;
+  overflow-wrap: anywhere;
   padding: 0.3rem 0.65rem;
   border-radius: 999px;
   border: 1px solid color-mix(in srgb, var(--color-accent-3) 35%, var(--color-border));
@@ -929,6 +940,7 @@ function formatDate(value) {
 .hero-video-content {
   position: relative;
   width: 100%;
+  max-width: 100%;
   min-height: 22rem;
   aspect-ratio: 16 / 9;
   padding: 1px;
@@ -1117,7 +1129,9 @@ function formatDate(value) {
 .changes-table-wrap {
   flex: 1 1 auto;
   min-height: 0;
-  overflow: hidden;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .changes-table {
@@ -1321,7 +1335,7 @@ function formatDate(value) {
 
 .camps-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.25rem;
 }
 
@@ -1677,7 +1691,7 @@ function formatDate(value) {
 
 .release-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.25rem;
   margin-bottom: 1.5rem;
 }

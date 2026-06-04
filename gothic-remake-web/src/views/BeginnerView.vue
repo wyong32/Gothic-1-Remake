@@ -644,7 +644,7 @@ import { RouterLink } from 'vue-router'
 
 .two-col-cards {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 1rem;
   margin-top: 1.5rem;
 }
@@ -676,7 +676,9 @@ import { RouterLink } from 'vue-router'
   border: 1px solid var(--color-border-strong);
   border-radius: var(--radius-md);
   background: color-mix(in srgb, var(--color-bg) 85%, var(--color-accent) 15%);
+  max-width: 100%;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .flow-chart-text {
@@ -690,7 +692,7 @@ import { RouterLink } from 'vue-router'
 
 .camp-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   margin-top: 1.5rem;
 }

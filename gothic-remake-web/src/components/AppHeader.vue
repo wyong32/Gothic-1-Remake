@@ -60,6 +60,8 @@ watch(
   position: fixed;
   inset: 0 0 auto;
   z-index: 100;
+  max-width: 100%;
+  overflow-x: clip;
   background:
     linear-gradient(
       180deg,

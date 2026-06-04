@@ -56,14 +56,20 @@ const { items, activeSlug, scrollToSection } = usePageToc(contentRef)
   grid-template-columns: minmax(13.5rem, 17.5rem) minmax(0, 1fr);
   gap: 2.75rem 3.25rem;
   align-items: start;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .page-shell-slot {
   display: contents;
+  min-width: 0;
 }
 
 .page-shell-slot :deep(.page-hero-section) {
   grid-column: 1 / -1;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .page-shell-slot :deep(section:not(.page-hero-section)) {
@@ -188,6 +194,8 @@ const { items, activeSlug, scrollToSection } = usePageToc(contentRef)
 
 .page-toc-text {
   flex: 1;
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 
 .page-toc-link:hover {

@@ -370,7 +370,7 @@ import { RouterLink } from 'vue-router'
 
 .zone-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.85rem;
   margin-top: 1.5rem;
 }

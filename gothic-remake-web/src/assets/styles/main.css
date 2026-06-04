@@ -80,6 +80,7 @@ html {
   min-height: 100%;
   background-color: var(--color-bg);
   color-scheme: dark;
+  overflow-x: clip;
 }
 
 body {
@@ -160,6 +161,8 @@ body::after {
 #app {
   position: relative;
   z-index: 1;
+  max-width: 100%;
+  overflow-x: clip;
 }
 
 ::selection {
@@ -234,15 +237,23 @@ img {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 clamp(1rem, 3vw, 2rem);
+  min-width: 0;
 }
 
 .page-main {
   padding-top: 4.75rem;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: clip;
 }
 
 /* —— 内页 Hero —— */
 .page-hero-section {
   position: relative;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
   padding: 3.25rem clamp(1.25rem, 3vw, 2rem) 2.5rem;
   margin-bottom: 0.25rem;
   overflow: hidden;
@@ -286,7 +297,10 @@ img {
 .page-hero-content {
   position: relative;
   z-index: 1;
+  min-width: 0;
+  max-width: 100%;
   padding-left: 0.85rem;
+  overflow-wrap: break-word;
 }
 
 .page-hero-split {
@@ -296,6 +310,8 @@ img {
   grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
   gap: 2rem 2.5rem;
   align-items: center;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .page-hero-media {
@@ -331,6 +347,7 @@ img {
   line-height: 1.12;
   font-size: clamp(1.65rem, 2.8vw, 2.15rem);
   font-weight: 700;
+  overflow-wrap: break-word;
 }
 
 .page-intro {
@@ -338,6 +355,7 @@ img {
   font-size: 1.06rem;
   line-height: 1.75;
   color: color-mix(in srgb, var(--color-text) 72%, var(--color-muted));
+  overflow-wrap: break-word;
 }
 
 .page-meta {
@@ -348,9 +366,12 @@ img {
   padding-top: 0;
   border: 0;
   list-style: none;
+  max-width: 100%;
 }
 
 .page-meta li {
+  max-width: 100%;
+  overflow-wrap: anywhere;
   padding: 0.45rem 0.8rem;
   border: 1px solid color-mix(in srgb, var(--color-accent) 20%, var(--color-border-strong));
   border-radius: var(--radius-sm);
@@ -371,9 +392,12 @@ img {
   gap: 0.45rem;
   margin-top: 1.25rem;
   list-style: none;
+  max-width: 100%;
 }
 
 .tag-row li {
+  max-width: 100%;
+  overflow-wrap: anywhere;
   padding: 0.28rem 0.65rem;
   border: 1px solid color-mix(in srgb, var(--color-accent) 25%, var(--color-border));
   border-radius: 999px;
@@ -388,8 +412,10 @@ img {
 .page-eyebrow,
 .hero-eyebrow {
   display: inline-flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 0.45rem;
+  max-width: 100%;
   margin-bottom: 0;
   padding: 0.38rem 0.9rem;
   border: 1px solid transparent;
@@ -419,6 +445,14 @@ img {
 /* —— 内页正文 —— */
 .page-body-section {
   position: relative;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.page-body-content {
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 .page-body-section::before {
@@ -471,10 +505,20 @@ img {
 }
 
 .data-table {
+  width: 100%;
+  max-width: 100%;
   border: 1px solid var(--color-border-strong);
   border-radius: var(--radius-md);
   overflow: hidden;
   box-shadow: var(--shadow-panel);
+}
+
+.guide-table-wrap,
+.table-scroll,
+.page-body-content .guide-table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .data-table th {
@@ -515,6 +559,13 @@ img {
   ) !important;
 }
 
+.page-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  max-width: 100%;
+}
+
 .page-links a {
   padding: 0.35rem 0.75rem;
   border: 1px solid color-mix(in srgb, var(--color-accent) 35%, var(--color-border));
@@ -529,6 +580,16 @@ img {
 }
 
 @media (max-width: 1024px) {
+  body {
+    background-attachment: scroll, scroll;
+    background-position: center top, center top;
+  }
+
+  body::before,
+  body::after {
+    position: absolute;
+  }
+
   .page-hero-split {
     grid-template-columns: 1fr;
   }
@@ -540,8 +601,20 @@ img {
 
 @media (max-width: 768px) {
   body {
-    background-attachment: scroll, scroll;
     background-position: center 20%, center 20%;
+  }
+
+  .page-hero-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .page-hero-section h1 {
+    font-size: clamp(1.4rem, 5.2vw, 1.75rem);
+  }
+
+  .page-hero-content {
+    padding-left: 0.65rem;
   }
 }
 

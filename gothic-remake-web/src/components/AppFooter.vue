@@ -67,6 +67,8 @@ const year = new Date().getFullYear()
 .site-footer {
   margin-top: 5rem;
   padding: 3.5rem 0 2rem;
+  max-width: 100%;
+  overflow-x: clip;
   background:
     linear-gradient(
       180deg,
@@ -79,9 +81,10 @@ const year = new Date().getFullYear()
 
 .site-footer-content {
   display: grid;
-  grid-template-columns: minmax(240px, 1fr) minmax(320px, 1.4fr);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
   gap: 3rem;
   padding-bottom: 2.5rem;
+  min-width: 0;
 }
 
 .footer-brand-content {
@@ -105,7 +108,7 @@ const year = new Date().getFullYear()
 
 .footer-nav {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.5rem;
 }
 
