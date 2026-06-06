@@ -21,8 +21,7 @@
       class="page-body-section"
       :aria-labelledby="section.id"
     >
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <div class="wiki-section-head">
             <h2 :id="section.id">{{ section.title }}</h2>
             <span class="wiki-section-count">{{ section.entries.length }} entries</span>
@@ -74,13 +73,11 @@
               </article>
             </li>
           </ul>
-        </div>
       </div>
     </section>
 
     <section class="page-body-section">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <p class="wiki-footer-note">
             Lore and stats sourced from Gothic Wiki infobox data, condensed for the Remake guide.
             Gameplay tips appear where they differ from classic Gothic 1.
@@ -90,7 +87,6 @@
             <RouterLink to="/quests-story">Quest directory</RouterLink>
             <RouterLink to="/interactive-map">Map atlas</RouterLink>
           </nav>
-        </div>
       </div>
     </section>
   </PageWithToc>

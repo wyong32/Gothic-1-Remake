@@ -25,8 +25,7 @@
     </section>
 
     <section class="page-body-section" aria-labelledby="chapters-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="chapters-title">Gothic 1 Remake Main Story — Chapter Walkthrough</h2>
           <p>
             The main campaign splits into six chronological chapters. Each block below lists the core
@@ -223,13 +222,11 @@
               </tr>
             </tbody>
           </table>
-        </div>
       </div>
     </section>
 
     <section class="page-body-section" aria-labelledby="admission-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="admission-title">Gothic 1 Remake Faction Quests — Chapter 1 Admission</h2>
           <p>
             Before your final oath, gain trust from leaders in each settlement. You can accept and
@@ -306,13 +303,11 @@
               </ul>
             </article>
           </div>
-        </div>
       </div>
     </section>
 
     <section class="page-body-section" aria-labelledby="faq-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="faq-title">Gothic 1 Remake Quest FAQ</h2>
           <p>
             Common early-game blockers — solutions for journal flags that stall Chapter 1 progression.
@@ -358,7 +353,6 @@
             <RouterLink to="/factions-builds">Camp builds →</RouterLink>
             <RouterLink to="/interactive-map">Quest locations →</RouterLink>
           </nav>
-        </div>
       </div>
     </section>
   </PageWithToc>

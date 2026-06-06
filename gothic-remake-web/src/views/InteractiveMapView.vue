@@ -48,8 +48,7 @@
     </section>
 
     <section class="page-body-section" aria-labelledby="zones-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="zones-title">Gothic 1 Remake Valley Zones — Regions &amp; Danger Ratings</h2>
           <p>
             Before stepping off the main dirt paths, match your level and armor to local hazards. This
@@ -146,31 +145,31 @@
               <p>Northwest landmark — Chromatin books, Waran patrols, harbor wreck south of tower.</p>
             </article>
           </div>
-        </div>
       </div>
     </section>
 
     <section class="page-body-section" aria-labelledby="nav-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="nav-title">Gothic 1 Remake Navigation — Landmarks Without a Minimap</h2>
           <p>
             Gothic 1 Remake has no automated GPS lines — spatial awareness, audio cues, and purchased
             paper maps replace waypoint markers.
           </p>
 
-          <figure class="content-figure content-figure--compact">
-            <img
-              src="/images/map-img-01.webp"
-              alt="Placeholder — vertical navigation with torches and scaffolding"
-              width="800"
-              height="280"
-              loading="lazy"
-            />
-            <figcaption>
-              Torches and wooden scaffolding mark developer-intended staircases — not shortcut cliffs.
-            </figcaption>
-          </figure>
+          <p class="map-inline-tip">
+            Use the live atlas below to cross-check landmarks, trainers, ore veins, and quest pins when
+            NPC directions only say &ldquo;the old tower&rdquo; — same tile layer and coordinates as the
+            <a
+              href="https://wand.com/maps/gothic-1-remake/the-colony"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Wand Colony map</a
+            >.
+          </p>
+
+          <div class="colony-map-wrap">
+            <ColonyInteractiveMap />
+          </div>
 
           <ol class="rule-list">
             <li class="rule-card">
@@ -228,7 +227,6 @@
             <RouterLink to="/quests-story">Quest directory →</RouterLink>
             <RouterLink to="/wiki">NPC &amp; trainer wiki →</RouterLink>
           </nav>
-        </div>
       </div>
     </section>
   </PageWithToc>
@@ -236,6 +234,7 @@
 
 <script setup>
 import { RouterLink } from 'vue-router'
+import ColonyInteractiveMap from '@/components/ColonyInteractiveMap.vue'
 </script>
 
 <style scoped>
@@ -397,6 +396,30 @@ import { RouterLink } from 'vue-router'
   font-size: 0.82rem;
   color: var(--color-muted);
   line-height: 1.5;
+}
+
+.colony-map-wrap {
+  margin: 1.25rem 0 0;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.colony-map-wrap :deep(.colony-map) {
+  max-width: 100%;
+}
+
+.map-inline-tip {
+  margin: 1rem 0 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--color-muted);
+}
+
+.map-inline-tip a {
+  color: var(--color-accent);
+  font-weight: 600;
 }
 
 .content-figure {

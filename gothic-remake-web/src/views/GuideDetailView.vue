@@ -22,19 +22,15 @@
     </section>
 
     <section class="page-body-section">
-      <div class="container">
-        <div class="page-body-content guide-detail-body" v-html="guide.detailsHtml" />
-      </div>
+      <div class="page-body-content guide-detail-body" v-html="guide.detailsHtml" />
     </section>
 
     <section class="page-body-section">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <nav class="guide-footer-nav">
             <RouterLink to="/guides">← Back to guide list</RouterLink>
             <RouterLink to="/beginner">Beginner survival guide</RouterLink>
           </nav>
-        </div>
       </div>
     </section>
   </PageWithToc>

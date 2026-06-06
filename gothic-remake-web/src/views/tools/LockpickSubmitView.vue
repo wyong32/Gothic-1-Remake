@@ -18,8 +18,7 @@
     </section>
 
     <section class="page-body-section" aria-labelledby="submission-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="submission-title">Submission Form</h2>
           <form class="submit-panel" @submit.prevent="submitForm">
             <div class="form-grid">
@@ -129,13 +128,11 @@
 
             <p v-if="formMessage" class="form-message" :class="formMessageClass">{{ formMessage }}</p>
           </form>
-        </div>
       </div>
     </section>
 
     <section class="page-body-section" aria-labelledby="format-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="format-title">What Counts as Useful Data</h2>
           <div class="quality-grid">
             <article>
@@ -161,7 +158,6 @@
           </aside>
 
           <pre class="payload-preview"><code>{{ payloadPreview }}</code></pre>
-        </div>
       </div>
     </section>
 

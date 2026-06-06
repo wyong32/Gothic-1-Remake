@@ -24,8 +24,7 @@
     </section>
 
     <section class="page-body-section" aria-labelledby="solver-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="solver-title">Solver</h2>
           <div class="lockpick-layout">
             <form class="tool-panel lockpick-form" @submit.prevent="calculate">
@@ -99,13 +98,11 @@
               </p>
             </aside>
           </div>
-        </div>
       </div>
     </section>
 
     <section class="page-body-section" aria-labelledby="rules-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="rules-title">Rule Format</h2>
           <div class="reference-grid">
             <article>
@@ -149,13 +146,11 @@
               </tr>
             </tbody>
           </table>
-        </div>
       </div>
     </section>
 
     <section class="page-body-section" aria-labelledby="faq-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="faq-title">Lockpicking FAQ</h2>
           <dl class="faq-list">
             <div v-for="item in faqItems" :key="item.question" class="faq-item">
@@ -163,13 +158,11 @@
               <dd>{{ item.answer }}</dd>
             </div>
           </dl>
-        </div>
       </div>
     </section>
 
     <section class="page-body-section" aria-labelledby="database-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="database-title">Known Locks</h2>
           <div class="database-panel">
             <div>
@@ -200,7 +193,6 @@
               review only.
             </p>
           </div>
-        </div>
       </div>
     </section>
   </PageWithToc>
@@ -384,9 +376,12 @@ async function copySteps() {
 <style scoped>
 .lockpick-layout {
   display: grid;
-  grid-template-columns: minmax(0, 0.95fr) minmax(300px, 1.05fr);
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
   align-items: start;
   gap: 1.25rem;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .tool-panel {

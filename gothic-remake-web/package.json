@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "generate-sitemap": "node scripts/generate-sitemap.js",
-    "prebuild": "npm run generate-sitemap",
+    "extract-map-data": "node scripts/extract-wand-map-data.mjs",
+    "prebuild": "npm run extract-map-data && npm run generate-sitemap",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "run-s lint:*",

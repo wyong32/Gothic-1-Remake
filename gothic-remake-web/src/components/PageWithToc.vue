@@ -1,6 +1,6 @@
 <template>
   <main class="page-main">
-    <div class="container page-shell">
+    <div class="container" :class="{ 'page-shell': items.length > 1 }">
       <nav v-if="items.length > 1" class="page-toc" aria-label="On this page">
         <header class="page-toc-head">
           <span class="page-toc-mark" aria-hidden="true">
@@ -35,7 +35,7 @@
         </ol>
       </nav>
 
-      <div ref="contentRef" class="page-shell-slot">
+      <div ref="contentRef" class="page-content">
         <slot />
       </div>
     </div>
@@ -54,39 +54,29 @@ const { items, activeSlug, scrollToSection } = usePageToc(contentRef)
 .page-shell {
   display: grid;
   grid-template-columns: minmax(13.5rem, 17.5rem) minmax(0, 1fr);
-  gap: 2.75rem 3.25rem;
+  gap: 2.75rem 3rem;
   align-items: start;
   min-width: 0;
-  max-width: 100%;
 }
 
-.page-shell-slot {
-  display: contents;
-  min-width: 0;
-}
-
-.page-shell-slot :deep(.page-hero-section) {
-  grid-column: 1 / -1;
+.page-content {
   width: 100%;
-  max-width: 100%;
   min-width: 0;
 }
 
-.page-shell-slot :deep(section:not(.page-hero-section)) {
+.page-shell .page-content {
   grid-column: 2;
-}
-
-.page-shell-slot :deep(.container) {
-  max-width: none;
-  margin: 0;
-  padding: 0;
 }
 
 .page-toc {
   grid-column: 1;
-  grid-row: 2;
+  grid-row: 1;
   position: sticky;
   top: 5.5rem;
+  align-self: start;
+  width: 100%;
+  max-height: calc(100vh - 6.5rem);
+  overflow-y: auto;
   padding: 1.15rem 1.1rem 1.2rem;
   border: 1px solid transparent;
   border-radius: var(--radius-md);
@@ -233,8 +223,8 @@ const { items, activeSlug, scrollToSection } = usePageToc(contentRef)
     grid-template-columns: 1fr;
   }
 
-  .page-shell-slot :deep(section:not(.page-hero-section)) {
-    grid-column: 1 / -1;
+  .page-shell .page-content {
+    grid-column: 1;
   }
 
   .page-toc {

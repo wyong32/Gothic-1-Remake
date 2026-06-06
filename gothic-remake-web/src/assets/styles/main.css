@@ -235,16 +235,23 @@ img {
 .container {
   width: 100%;
   max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 clamp(1rem, 3vw, 2rem);
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 3vw, 2rem);
   min-width: 0;
+  box-sizing: border-box;
 }
 
 .page-main {
   padding-top: 4.75rem;
-  max-width: 100%;
+  width: 100%;
   min-width: 0;
   overflow-x: clip;
+}
+
+.page-main > .container {
+  width: 100%;
+  max-width: 1400px;
+  margin-inline: auto;
 }
 
 /* —— 内页 Hero —— */
@@ -254,7 +261,7 @@ img {
   max-width: 100%;
   min-width: 0;
   box-sizing: border-box;
-  padding: 3.25rem clamp(1.25rem, 3vw, 2rem) 2.5rem;
+  padding: 3.25rem 0 2.5rem;
   margin-bottom: 0.25rem;
   overflow: hidden;
   isolation: isolate;
@@ -445,13 +452,17 @@ img {
 /* —— 内页正文 —— */
 .page-body-section {
   position: relative;
-  min-width: 0;
+  width: 100%;
   max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  padding-bottom: 3rem;
 }
 
 .page-body-content {
-  min-width: 0;
+  width: 100%;
   max-width: 100%;
+  min-width: 0;
   overflow-wrap: break-word;
 }
 
@@ -602,11 +613,6 @@ img {
 @media (max-width: 768px) {
   body {
     background-position: center 20%, center 20%;
-  }
-
-  .page-hero-section {
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
   .page-hero-section h1 {

@@ -25,8 +25,7 @@
     </section>
 
     <section class="page-body-section" aria-labelledby="survival-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="survival-title">Gothic 1 Remake Survival — 5 Rules for the Mining Valley</h2>
           <p>
             To survive the first five hours, understand that the environment reacts realistically to
@@ -115,13 +114,11 @@
               </ul>
             </li>
           </ol>
-        </div>
       </div>
     </section>
 
     <section class="page-body-section" aria-labelledby="lp-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="lp-title">Gothic 1 Remake Progression — Learning Points &amp; Trainers</h2>
           <p>
             Gothic's progression is counter-intuitive and completely different from modern mainstream
@@ -214,13 +211,11 @@
               </ul>
             </article>
           </div>
-        </div>
       </div>
     </section>
 
     <section class="page-body-section" aria-labelledby="combat-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="combat-title">Gothic 1 Remake Combat — Mastering the Timing</h2>
           <p>
             Your first one-handed sword or heavy stick will look clumsy — that is intentional design,
@@ -280,13 +275,11 @@
             </ol>
             <p>Button mashing resets your animation and leaves you wide open.</p>
           </aside>
-        </div>
       </div>
     </section>
 
     <section class="page-body-section" aria-labelledby="chapter1-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="chapter1-title">Gothic 1 Remake Chapter 1 — Faction Quest Strategy</h2>
           <p>
             Chapter 1 — <em>The World of the Colony</em> — ends when you join one of three rival
@@ -369,13 +362,11 @@
               </ul>
             </article>
           </div>
-        </div>
       </div>
     </section>
 
     <section class="page-body-section" aria-labelledby="mistakes-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="mistakes-title">Gothic 1 Remake — 5 Critical Mistakes to Avoid</h2>
           <p>
             These errors permanently waste LP, Ore, or story branches — common on a first colony run.
@@ -439,7 +430,6 @@
             <RouterLink to="/quests-story">Quest directory →</RouterLink>
             <RouterLink to="/wiki">Trainer wiki →</RouterLink>
           </nav>
-        </div>
       </div>
     </section>
   </PageWithToc>

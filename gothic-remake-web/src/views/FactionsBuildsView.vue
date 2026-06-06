@@ -24,8 +24,7 @@
     </section>
 
     <section class="page-body-section" aria-labelledby="overview-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="overview-title">Gothic 1 Remake Factions — Which Camp to Join</h2>
           <p>
             You cannot remain an unaligned freelancer forever. By the end of Chapter 1, you must swear
@@ -136,13 +135,11 @@
               </ul>
             </article>
           </div>
-        </div>
       </div>
     </section>
 
     <section class="page-body-section" aria-labelledby="builds-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="builds-title">Gothic 1 Remake Character Builds for Beginners</h2>
           <p>
             Avoid spreading LP across three weapon lines. Focus on one primary stat — Strength,
@@ -300,13 +297,11 @@
               </tbody>
             </table>
           </article>
-        </div>
       </div>
     </section>
 
     <section class="page-body-section" aria-labelledby="templar-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="templar-title">Gothic 1 Remake — Swamp Templar Hybrid Build</h2>
           <p>
             If you cannot choose between raw melee and magic, the Swamp Camp offers a unique hybrid —
@@ -352,13 +347,11 @@
             <li>Combat buffs</li>
             <li>2H swords</li>
           </ul>
-        </div>
       </div>
     </section>
 
     <section class="page-body-section" aria-labelledby="summary-title">
-      <div class="container">
-        <div class="page-body-content">
+      <div class="page-body-content">
           <h2 id="summary-title">Gothic 1 Remake — Match Your Build to Your Camp</h2>
           <p>
             Use this checklist before swearing your final oath — there is no respec and no second
@@ -427,7 +420,6 @@
             <RouterLink to="/quests-story">Camp quest lists →</RouterLink>
             <RouterLink to="/wiki">Trainer tables →</RouterLink>
           </nav>
-        </div>
       </div>
     </section>
   </PageWithToc>
