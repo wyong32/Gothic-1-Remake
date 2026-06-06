@@ -3,145 +3,157 @@
 
   <url>
     <loc>https://gothic1remake.com/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/beginner</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/wiki</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.92</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/wiki/gods</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/wiki/regions</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/wiki/characters</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/wiki/bestiary</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/wiki/quests</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/wiki/artifacts</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/wiki/weapons</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/wiki/armors</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/wiki/potions</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/wiki/runes</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/wiki/trophies</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/wiki/other</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/factions-builds</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/quests-story</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/guides</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/interactive-map</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
   </url>
   <url>
+    <loc>https://gothic1remake.com/tools/lockpick</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://gothic1remake.com/tools/lockpick-submit</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://gothic1remake.com/legal/privacy-policy</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.35</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/legal/terms-of-service</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.35</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/legal/copyright</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.35</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/legal/about-us</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.45</priority>
   </url>
   <url>
     <loc>https://gothic1remake.com/legal/contact-us</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.45</priority>
   </url>

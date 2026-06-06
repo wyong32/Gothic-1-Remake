@@ -130,6 +130,30 @@ const router = createRouter({
       },
     },
     {
+      path: '/tools/lockpick',
+      name: 'lockpick-tool',
+      component: () => import('@/views/tools/LockpickToolView.vue'),
+      meta: {
+        title: 'Gothic 1 Remake Lockpick Calculator — Chest & Door Solver',
+        description:
+          'Gothic 1 Remake lockpick calculator and lockpicking tool for locked chests and doors: enter slot positions, link rules, and solve chest combinations.',
+        keywords:
+          'Gothic 1 Remake lockpick calculator, Gothic 1 Remake lockpicking tool, Gothic 1 Remake chest combination, Gothic Remake how to open locked chests',
+      },
+    },
+    {
+      path: '/tools/lockpick-submit',
+      name: 'lockpick-submit',
+      component: () => import('@/views/tools/LockpickSubmitView.vue'),
+      meta: {
+        title: 'Submit Gothic 1 Remake Lock Data — Chest & Door Form',
+        description:
+          'Submit Gothic 1 Remake chest and door lock data for review: exact location, patch version, slot count, start positions, rules, proof URL, and notes.',
+        keywords:
+          'submit Gothic 1 Remake lock data, Gothic Remake chest database, lockpick rules, chest locations',
+      },
+    },
+    {
       path: '/legal/privacy-policy',
       name: 'legal-privacy',
       component: () => import('@/views/legal/PrivacyPolicyView.vue'),

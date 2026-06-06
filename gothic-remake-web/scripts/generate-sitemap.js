@@ -23,6 +23,8 @@ const staticRoutes = [
   { path: '/quests-story', name: 'quests-story' },
   { path: '/guides', name: 'guides' },
   { path: '/interactive-map', name: 'interactive-map' },
+  { path: '/tools/lockpick', name: 'lockpick-tool' },
+  { path: '/tools/lockpick-submit', name: 'lockpick-submit' },
   { path: '/legal/privacy-policy', name: 'legal-privacy' },
   { path: '/legal/terms-of-service', name: 'legal-terms' },
   { path: '/legal/copyright', name: 'legal-copyright' },

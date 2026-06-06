@@ -34,6 +34,7 @@
           <RouterLink to="/quests-story">Quests &amp; Story</RouterLink>
           <RouterLink to="/guides">Guides</RouterLink>
           <RouterLink to="/interactive-map">Interactive Map</RouterLink>
+          <RouterLink to="/tools/lockpick">Tools</RouterLink>
         </nav>
       </div>
     </div>

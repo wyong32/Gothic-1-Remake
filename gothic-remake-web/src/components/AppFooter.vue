@@ -31,6 +31,7 @@
               <li><RouterLink to="/quests-story">Quests &amp; Story</RouterLink></li>
               <li><RouterLink to="/guides">Guides</RouterLink></li>
               <li><RouterLink to="/interactive-map">Interactive Map</RouterLink></li>
+              <li><RouterLink to="/tools/lockpick">Tools</RouterLink></li>
             </ul>
           </div>
           <div>
