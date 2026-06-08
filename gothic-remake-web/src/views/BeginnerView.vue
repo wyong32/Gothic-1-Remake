@@ -25,6 +25,9 @@
     </section>
 
     <section class="page-body-section" aria-labelledby="survival-title">
+
+<GptAdSlot page-id="beginner" slot-id="1" unit="inter" />
+    
       <div class="page-body-content">
           <h2 id="survival-title">Gothic 1 Remake Survival — 5 Rules for the Mining Valley</h2>
           <p>
@@ -46,7 +49,8 @@
               can safely go.
             </figcaption>
           </figure>
-
+          
+<GptAdSlot page-id="beginner" slot-id="2" :unit="1" />
           <ol class="rule-list">
             <li class="rule-card">
               <span class="rule-label">Rule 1</span>
@@ -116,6 +120,8 @@
           </ol>
       </div>
     </section>
+
+<GptAdSlot page-id="beginner" slot-id="3" :unit="2" />
 
     <section class="page-body-section" aria-labelledby="lp-title">
       <div class="page-body-content">
@@ -214,6 +220,8 @@
       </div>
     </section>
 
+<GptAdSlot page-id="beginner" slot-id="4" :unit="3" />
+
     <section class="page-body-section" aria-labelledby="combat-title">
       <div class="page-body-content">
           <h2 id="combat-title">Gothic 1 Remake Combat — Mastering the Timing</h2>
@@ -277,6 +285,8 @@
           </aside>
       </div>
     </section>
+
+<GptAdSlot page-id="beginner" slot-id="5" unit="inter" />
 
     <section class="page-body-section" aria-labelledby="chapter1-title">
       <div class="page-body-content">
@@ -365,6 +375,8 @@
       </div>
     </section>
 
+<GptAdSlot page-id="beginner" slot-id="6" :unit="1" />
+
     <section class="page-body-section" aria-labelledby="mistakes-title">
       <div class="page-body-content">
           <h2 id="mistakes-title">Gothic 1 Remake — 5 Critical Mistakes to Avoid</h2>
@@ -424,6 +436,8 @@
               </div>
             </li>
           </ul>
+
+<GptAdSlot page-id="beginner" slot-id="7" :unit="2" />
 
           <nav class="page-links">
             <RouterLink to="/factions-builds">Compare builds →</RouterLink>

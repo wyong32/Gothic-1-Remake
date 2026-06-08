@@ -51,6 +51,8 @@
       </div>
     </section>
 
+<GptAdSlot page-id="home" slot-id="1" unit="inter" />
+
     <section class="situations-section" aria-labelledby="situations-title">
       <div class="container">
         <div class="situations-content">
@@ -73,6 +75,8 @@
         </div>
       </div>
     </section>
+
+<GptAdSlot page-id="home" slot-id="2" :unit="1" />
 
     <section class="changes-section" aria-labelledby="changes-title">
       <div class="container">
@@ -159,6 +163,8 @@
       </div>
     </section>
 
+<GptAdSlot page-id="home" slot-id="3" :unit="2" />
+
     <section class="camps-section" aria-labelledby="camps-title">
       <div class="container">
         <div class="camps-content">
@@ -240,6 +246,8 @@
         </div>
       </div>
     </section>
+
+<GptAdSlot page-id="home" slot-id="4" :unit="3" />
 
     <section class="quests-section" aria-labelledby="quests-title">
       <div class="container">
@@ -331,6 +339,8 @@
       </div>
     </section>
 
+<GptAdSlot page-id="home" slot-id="5" unit="inter" />
+
     <section v-if="homeGuides.length" class="guides-section" aria-labelledby="guides-title">
       <div class="container">
         <div class="guides-content">
@@ -371,6 +381,8 @@
       </div>
     </section>
 
+<GptAdSlot page-id="home" slot-id="6" :unit="1" />
+
     <section class="wiki-section" aria-labelledby="wiki-title">
       <div class="container">
         <div class="wiki-content">
@@ -400,6 +412,8 @@
         </div>
       </div>
     </section>
+
+<GptAdSlot page-id="home" slot-id="7" :unit="2" />
 
     <section class="release-section" id="release-date" aria-labelledby="release-title">
       <div class="container">
@@ -474,6 +488,8 @@
       </div>
     </section>
 
+<GptAdSlot page-id="home" slot-id="8" :unit="3" />
+
     <section class="about-section" id="about" aria-labelledby="about-title">
       <div class="container">
         <header class="about-head">
@@ -541,6 +557,8 @@
         </div>
       </div>
     </section>
+
+<GptAdSlot page-id="home" slot-id="9" unit="inter" />
 
     <section class="faq-section" id="faq" aria-labelledby="faq-title">
       <div class="container">
@@ -619,6 +637,8 @@
         </div>
       </div>
     </section>
+
+<GptAdSlot page-id="home" slot-id="10" :unit="1" />
   </div>
 </template>
 

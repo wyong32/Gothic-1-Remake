@@ -41,6 +41,31 @@
     />
     <meta name="twitter:image" content="/images/logo.webp" />
     <title>Gothic 1 Remake Guide — Release, Walkthroughs &amp; Quests</title>
+    <script>window.__GPT_AD_LOAD_DELAY_MS = 3000</script>
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+    <script>
+      window.googletag = window.googletag || { cmd: [] }
+      googletag.cmd.push(function () {
+        var anchorSlot = googletag.defineOutOfPageSlot(
+          '/23346398271/gothic1remake.com_0608_all/gothic1remake.com_0608_anchor_1',
+          googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR,
+        )
+        if (anchorSlot) anchorSlot.addService(googletag.pubads())
+        window.__gptAnchorSlot = anchorSlot
+      })
+    </script>
+    <script>
+      googletag.cmd.push(function () {
+        var interstitialSlot = googletag.defineOutOfPageSlot(
+          '/23346398271/gothic1remake.com_0608_all/gothic1remake.com_0608_inter_1',
+          googletag.enums.OutOfPageFormat.INTERSTITIAL,
+        )
+        if (interstitialSlot) interstitialSlot.addService(googletag.pubads())
+        window.__gptInterstitialSlot = interstitialSlot
+        googletag.pubads().enableSingleRequest()
+        googletag.enableServices()
+      })
+    </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VVMTEBXPS7"></script>
     <script>
@@ -86,5 +111,21 @@
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+    <script>
+      setTimeout(function () {
+        googletag.cmd.push(function () {
+          var oopSlots = []
+          if (window.__gptAnchorSlot) {
+            googletag.display(window.__gptAnchorSlot)
+            oopSlots.push(window.__gptAnchorSlot)
+          }
+          if (window.__gptInterstitialSlot) {
+            googletag.display(window.__gptInterstitialSlot)
+            oopSlots.push(window.__gptInterstitialSlot)
+          }
+          if (oopSlots.length) googletag.pubads().refresh(oopSlots)
+        })
+      }, window.__GPT_AD_LOAD_DELAY_MS || 3000)
+    </script>
   </body>
 </html>

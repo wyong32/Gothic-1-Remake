@@ -20,6 +20,8 @@
         </div>
       </section>
 
+<GptAdSlot page-id="wiki" slot-id="1" unit="inter" />
+
       <section class="page-body-section">
         <div class="page-body-content">
           <h2 class="wiki-index-heading">Browse Gothic 1 Remake Wiki Categories</h2>
@@ -27,6 +29,7 @@
             Each tile opens a detailed list — key stats from Gothic Wiki infoboxes plus Remake guide
             notes where relevant.
           </p>
+          
 
           <div class="wiki-index-stats" aria-label="Wiki overview">
             <div class="wiki-index-stat">
@@ -42,6 +45,8 @@
               <span>With artwork</span>
             </div>
           </div>
+
+<GptAdSlot page-id="wiki" slot-id="2" :unit="1" />
 
           <nav class="wiki-bento" aria-label="Wiki categories">
             <RouterLink
@@ -63,6 +68,8 @@
           </p>
         </div>
       </section>
+
+<GptAdSlot page-id="wiki" slot-id="3" :unit="2" />
     </div>
   </main>
 </template>

@@ -59,18 +59,33 @@ const { items, activeSlug, scrollToSection } = usePageToc(contentRef)
   min-width: 0;
 }
 
+.page-shell .page-content {
+  display: contents;
+}
+
 .page-content {
   width: 100%;
   min-width: 0;
 }
 
-.page-shell .page-content {
+.page-shell .page-content :deep(.page-hero-section) {
+  grid-column: 1 / -1;
+  grid-row: 1;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.page-shell .page-content :deep(> *:not(.page-hero-section)) {
   grid-column: 2;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .page-toc {
   grid-column: 1;
-  grid-row: 1;
+  grid-row: 2;
   position: sticky;
   top: 5.5rem;
   align-self: start;
@@ -223,8 +238,8 @@ const { items, activeSlug, scrollToSection } = usePageToc(contentRef)
     grid-template-columns: 1fr;
   }
 
-  .page-shell .page-content {
-    grid-column: 1;
+  .page-shell .page-content :deep(> *:not(.page-hero-section)) {
+    grid-column: 1 / -1;
   }
 
   .page-toc {

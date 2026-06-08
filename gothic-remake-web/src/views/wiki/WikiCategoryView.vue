@@ -1,5 +1,5 @@
 <template>
-  <PageWithToc v-if="category">
+  <PageWithToc v-if="category" :key="category.slug">
     <section class="page-hero-section" :aria-labelledby="`${category.slug}-title`">
       <div class="page-hero-content">
           <RouterLink to="/wiki" class="wiki-back-link">← Wiki categories</RouterLink>
@@ -14,6 +14,8 @@
           </ul>
       </div>
     </section>
+
+<GptAdSlot page-id="wiki-cat" slot-id="1" unit="inter" />
 
     <section
       v-for="section in category.sections"
@@ -75,6 +77,8 @@
           </ul>
       </div>
     </section>
+
+<GptAdSlot page-id="wiki-cat" slot-id="2" :unit="1" />
 
     <section class="page-body-section">
       <div class="page-body-content">

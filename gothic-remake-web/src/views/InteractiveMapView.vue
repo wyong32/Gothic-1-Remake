@@ -36,6 +36,8 @@
         </div>
       </section>
 
+<GptAdSlot page-id="map" slot-id="1" unit="inter" />
+
       <section class="page-body-section" aria-labelledby="zones-title">
         <div class="page-body-content">
           <h2 id="zones-title">Gothic 1 Remake Valley Zones — Regions &amp; Danger Ratings</h2>
@@ -65,6 +67,8 @@
           <p class="table-footnote">* Old Camp interior is safe only while wearing faction-colored armor.</p>
         </div>
       </section>
+
+<GptAdSlot page-id="map" slot-id="2" :unit="1" />
 
       <section class="page-body-section" aria-labelledby="nav-title">
         <div class="page-body-content">
@@ -147,6 +151,8 @@
           </nav>
       </div>
     </section>
+
+<GptAdSlot page-id="map" slot-id="3" :unit="2" />
     </div>
   </main>
 </template>

@@ -24,6 +24,8 @@
     </section>
 
     <section class="page-body-section" aria-labelledby="overview-title">
+<GptAdSlot page-id="factions" slot-id="1" unit="inter" />
+
       <div class="page-body-content">
           <h2 id="overview-title">Gothic 1 Remake Factions — Which Camp to Join</h2>
           <p>
@@ -52,6 +54,8 @@
               Each camp offers a distinct ideology, trainer roster, and endgame class fantasy.
             </figcaption>
           </figure>
+
+<GptAdSlot page-id="factions" slot-id="2" :unit="1" />
 
           <table class="data-table">
             <caption>The three camps at a glance</caption>
@@ -93,6 +97,7 @@
               </tr>
             </tbody>
           </table>
+          
 
           <div class="camp-grid">
             <article class="camp-card camp-old">
@@ -137,6 +142,8 @@
           </div>
       </div>
     </section>
+
+<GptAdSlot page-id="factions" slot-id="3" :unit="2" />
 
     <section class="page-body-section" aria-labelledby="builds-title">
       <div class="page-body-content">
@@ -197,6 +204,8 @@
             </table>
           </article>
 
+<GptAdSlot page-id="factions" slot-id="4" :unit="3" />
+
           <article class="build-panel build-ranged">
             <header class="build-header">
               <span class="build-badge">Build 2</span>
@@ -234,6 +243,8 @@
               <li>Do not invest LP into crossbows early — they scale with STR, not DEX.</li>
             </ul>
           </article>
+
+<GptAdSlot page-id="factions" slot-id="5" unit="inter" />
 
           <article class="build-panel build-magic">
             <header class="build-header">
@@ -300,6 +311,8 @@
       </div>
     </section>
 
+<GptAdSlot page-id="factions" slot-id="6" :unit="1" />
+
     <section class="page-body-section" aria-labelledby="templar-title">
       <div class="page-body-content">
           <h2 id="templar-title">Gothic 1 Remake — Swamp Templar Hybrid Build</h2>
@@ -349,6 +362,8 @@
           </ul>
       </div>
     </section>
+
+<GptAdSlot page-id="factions" slot-id="7" :unit="2" />
 
     <section class="page-body-section" aria-labelledby="summary-title">
       <div class="page-body-content">
@@ -422,6 +437,9 @@
           </nav>
       </div>
     </section>
+
+<GptAdSlot page-id="factions" slot-id="8" :unit="3" />
+    
   </PageWithToc>
 </template>
 

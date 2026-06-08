@@ -1,6 +1,8 @@
 <template>
   <main class="page-main">
     <div class="container">
+<GptAdSlot page-id="guides" slot-id="1" unit="inter" />
+    
       <section class="page-hero-section" aria-labelledby="guides-title">
         <div class="page-hero-content">
           <p class="page-eyebrow">Player Guides</p>
@@ -17,6 +19,8 @@
           </ul>
         </div>
       </section>
+
+<GptAdSlot page-id="guides" slot-id="2" :unit="1" />
 
       <section class="page-body-section">
         <div class="page-body-content">
@@ -47,6 +51,8 @@
           </ul>
         </div>
       </section>
+
+<GptAdSlot page-id="guides" slot-id="3" :unit="2" />
     </div>
   </main>
 </template>

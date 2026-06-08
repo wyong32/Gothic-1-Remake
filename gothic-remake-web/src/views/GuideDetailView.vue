@@ -1,5 +1,7 @@
 <template>
-  <PageWithToc v-if="guide">
+  <PageWithToc v-if="guide" :key="guide.addressBar">
+<GptAdSlot page-id="guide-detail" slot-id="1" unit="inter" />
+    
     <section class="page-hero-section guide-detail-hero" :aria-labelledby="`${guide.addressBar}-title`">
       <div class="page-hero-split">
         <div class="page-hero-content">
@@ -22,7 +24,11 @@
     </section>
 
     <section class="page-body-section">
+<GptAdSlot page-id="guide-detail" slot-id="2" :unit="1" />
+
       <div class="page-body-content guide-detail-body" v-html="guide.detailsHtml" />
+
+<GptAdSlot page-id="guide-detail" slot-id="3" :unit="2" />
     </section>
 
     <section class="page-body-section">
@@ -89,7 +95,6 @@ const formattedDate = computed(() => {
   font-size: 0.95rem;
   line-height: 1.7;
   color: color-mix(in srgb, var(--color-text) 88%, var(--color-muted));
-  max-width: 72ch;
 }
 
 .guide-footer-nav {

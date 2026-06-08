@@ -25,6 +25,8 @@
     </section>
 
     <section class="page-body-section" aria-labelledby="chapters-title">
+<GptAdSlot page-id="quests" slot-id="1" unit="inter" />
+
       <div class="page-body-content">
           <h2 id="chapters-title">Gothic 1 Remake Main Story — Chapter Walkthrough</h2>
           <p>
@@ -173,6 +175,8 @@
             </li>
           </ol>
 
+<GptAdSlot page-id="quests" slot-id="2" :unit="1" />
+
           <table class="data-table">
             <caption>Chapter quest volume (baseline Gothic 1 structure)</caption>
             <thead>
@@ -224,6 +228,8 @@
           </table>
       </div>
     </section>
+
+<GptAdSlot page-id="quests" slot-id="3" :unit="2" />
 
     <section class="page-body-section" aria-labelledby="admission-title">
       <div class="page-body-content">
@@ -306,6 +312,8 @@
       </div>
     </section>
 
+<GptAdSlot page-id="quests" slot-id="4" :unit="3" />
+
     <section class="page-body-section" aria-labelledby="faq-title">
       <div class="page-body-content">
           <h2 id="faq-title">Gothic 1 Remake Quest FAQ</h2>
@@ -355,6 +363,8 @@
           </nav>
       </div>
     </section>
+
+<GptAdSlot page-id="quests" slot-id="5" unit="inter" />
   </PageWithToc>
 </template>
 
