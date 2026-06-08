@@ -184,7 +184,6 @@
 <script setup>
 import { computed, reactive, ref } from 'vue'
 import { RouterLink } from 'vue-router'
-import PageWithToc from '@/components/PageWithToc.vue'
 import {
   POSITION_MAX,
   POSITION_MIN,

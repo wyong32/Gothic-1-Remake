@@ -347,8 +347,8 @@
               <RouterLink :to="`/guides/${guide.addressBar}`" class="guide-index-card">
                 <div class="guide-index-card__media">
                   <img
-                    src="/images/about-img.webp"
-                    alt="Gothic 1 Remake guide"
+                    :src="guide.imageUrl"
+                    :alt="guide.imageAlt"
                     loading="lazy"
                     width="640"
                     height="360"

@@ -201,7 +201,6 @@
 <script setup>
 import { computed, onMounted, ref, watch } from 'vue'
 import { RouterLink } from 'vue-router'
-import PageWithToc from '@/components/PageWithToc.vue'
 import { injectJsonLd, resolveCanonicalUrl } from '@/seo/documentMeta.js'
 import {
   POSITION_MAX,

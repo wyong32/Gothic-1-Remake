@@ -525,7 +525,6 @@ img {
 }
 
 .guide-table-wrap,
-.table-scroll,
 .page-body-content .guide-table-wrap {
   max-width: 100%;
   overflow-x: auto;
@@ -541,28 +540,12 @@ img {
   background: color-mix(in srgb, var(--color-bg-elevated) 35%, transparent);
 }
 
-.card-grid article,
 .bullet-list li {
   position: relative;
-  background: var(--gradient-surface) !important;
   border: 1px solid var(--color-border-strong) !important;
-  box-shadow: var(--shadow-panel);
-}
-
-.card-grid article::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: var(--gradient-ember);
-  border-radius: var(--radius-md) var(--radius-md) 0 0;
-}
-
-.bullet-list li {
   border-left: 3px solid var(--color-accent) !important;
   border-image: none !important;
+  box-shadow: var(--shadow-panel);
   background: linear-gradient(
     90deg,
     color-mix(in srgb, var(--color-accent) 10%, transparent),

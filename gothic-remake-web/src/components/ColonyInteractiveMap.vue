@@ -73,7 +73,7 @@
       </p>
     </aside>
 
-    <div class="colony-map__stage">
+    <div class="colony-map__stage" @pointerenter="lockPageScroll" @pointerleave="unlockPageScroll">
       <div class="colony-map__viewport-wrap">
         <div class="colony-map__pan-layer" :style="panLayerStyle">
           <canvas
@@ -85,7 +85,7 @@
             @pointermove="onPointerMove"
             @pointerup="onPointerUp"
             @pointercancel="onPointerUp"
-            @wheel.prevent="onWheel"
+            @wheel.passive="onWheel"
           ></canvas>
         </div>
       </div>
@@ -147,6 +147,8 @@ const expandedCategories = ref(new Set())
 const panPreview = ref({ x: 0, y: 0, active: false })
 
 let renderer = null
+let scrollLockDepth = 0
+let savedBodyOverflow = ''
 let resizeObserver = null
 let dragState = null
 let filterTimer = 0
@@ -259,6 +261,22 @@ function initRenderer() {
       applyLocationFromUrl()
     })
   })
+}
+
+function lockPageScroll() {
+  if (scrollLockDepth === 0) {
+    savedBodyOverflow = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+  }
+  scrollLockDepth += 1
+}
+
+function unlockPageScroll() {
+  if (scrollLockDepth === 0) return
+  scrollLockDepth -= 1
+  if (scrollLockDepth === 0) {
+    document.body.style.overflow = savedBodyOverflow
+  }
 }
 
 function onWheel(event) {
@@ -390,6 +408,8 @@ onBeforeUnmount(() => {
   clearTimeout(filterTimer)
   renderer?.destroy()
   renderer = null
+  scrollLockDepth = 0
+  document.body.style.overflow = savedBodyOverflow
 })
 </script>
 
@@ -419,6 +439,7 @@ onBeforeUnmount(() => {
   border: 1px solid var(--color-border-strong);
   border-radius: var(--radius-md);
   overflow: hidden;
+  overscroll-behavior: contain;
   background: var(--map-bg, #031727);
   box-shadow: var(--shadow-panel), var(--shadow-glow-accent);
 }
@@ -563,12 +584,14 @@ onBeforeUnmount(() => {
   position: relative;
   height: 34rem;
   min-height: 34rem;
+  overscroll-behavior: contain;
 }
 
 .colony-map__viewport-wrap {
   position: absolute;
   inset: 0;
   overflow: hidden;
+  overscroll-behavior: contain;
   background: var(--map-bg, #031727);
 }
 

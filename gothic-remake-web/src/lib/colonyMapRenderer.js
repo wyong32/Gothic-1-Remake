@@ -9,15 +9,16 @@ import {
 import {
   loadWandPinFonts,
   pinCacheKey,
+  PIN_ANCHOR_X,
+  PIN_ANCHOR_Y,
   PIN_DISPLAY_SIZE,
-  PIN_TIP_Y,
   PIN_VIEW_H,
   PIN_VIEW_W,
   renderPinAsImage,
 } from './colonyMapPinFonts.js'
 
 const PIN_RADIUS = 7
-const HIT_RADIUS = 22
+const HIT_RADIUS = 18
 
 function loadImage(url) {
   return new Promise((resolve) => {
@@ -113,6 +114,19 @@ export class ColonyMapRenderer {
 
   beginDrag() {
     this.isDragging = true
+  }
+
+  dragBy(dx, dy) {
+    if (dx === 0 && dy === 0) return
+    const delta = lngLatFromPixelDelta(dx, dy, this.zoom, this.centerLng, this.centerLat)
+    this.centerLng += delta.lng
+    this.centerLat += delta.lat
+    this.scheduleRender()
+  }
+
+  endDrag() {
+    this.isDragging = false
+    this.preloadVisibleTiles()
   }
 
   commitDrag(dx, dy) {
@@ -362,14 +376,15 @@ export class ColonyMapRenderer {
 
     const pinW = PIN_DISPLAY_SIZE
     const pinH = PIN_DISPLAY_SIZE * (PIN_VIEW_H / PIN_VIEW_W)
-    const pinTipOffset = pinH * (PIN_TIP_Y / PIN_VIEW_H)
+    const pinAnchorX = pinW * (PIN_ANCHOR_X / PIN_VIEW_W)
+    const pinAnchorY = pinH * (PIN_ANCHOR_Y / PIN_VIEW_H)
 
     for (const item of pinPositions) {
       const icon = item.pin.subcategoryId
         ? this.getPinIcon(item.pin.subcategoryId, item.pin.categoryColor)
         : null
       if (icon) {
-        ctx.drawImage(icon, item.left - pinW / 2, item.top - pinTipOffset, pinW, pinH)
+        ctx.drawImage(icon, item.left - pinAnchorX, item.top - pinAnchorY, pinW, pinH)
       } else {
         ctx.beginPath()
         ctx.arc(item.left, item.top, PIN_RADIUS, 0, Math.PI * 2)
@@ -377,17 +392,6 @@ export class ColonyMapRenderer {
         ctx.fill()
         ctx.strokeStyle = '#f8f0e6'
         ctx.lineWidth = 1.5
-        ctx.stroke()
-      }
-    }
-
-    if (this.selectedPinId) {
-      const selected = pinPositions.find((p) => p.pin.id === this.selectedPinId)
-      if (selected) {
-        ctx.beginPath()
-        ctx.arc(selected.left, selected.top, HIT_RADIUS, 0, Math.PI * 2)
-        ctx.strokeStyle = '#c4a056'
-        ctx.lineWidth = 2
         ctx.stroke()
       }
     }

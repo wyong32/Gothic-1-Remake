@@ -48,7 +48,7 @@
       </div>
 
       <div class="footer-bottom">
-        <p class="footer-copy">&copy; 2026 gothic1remake.com. All rights reserved.</p>
+        <p class="footer-copy">&copy; {{ year }} gothic1remake.com. All rights reserved.</p>
         <p class="footer-disclaimer">
           The Gothic 1 Remake Guide is an independent player resource for informational purposes.
           Gothic and related marks are trademarks of their respective owners.

@@ -1,54 +1,43 @@
 <template>
-  <PageWithToc>
-    <section class="page-hero-section" aria-labelledby="map-title">
-      <div class="page-hero-split">
-        <div class="page-hero-content">
-          <p class="page-eyebrow">World Atlas · Mining Valley</p>
-          <h1 id="map-title">Gothic 1 Remake — Interactive Map, Zones &amp; Landmark Navigation</h1>
-          <p class="page-intro">
-            The Mining Valley is a vertical, multi-layered penal colony — navigating elevation matters as
-            much as combat alignment. The Remake streamlines some ladder networks into staircases, but
-            the iconic vertical layout remains: height is your primary navigation mechanic.
-          </p>
-          <ul class="page-meta">
-            <li><strong>Scope:</strong> Full barrier interior</li>
-            <li><strong>Layers:</strong> Surface · mines · coast</li>
-            <li><strong>In-game maps:</strong> Buy from camp cartographers</li>
-          </ul>
-          <ul class="tag-row" aria-label="Map topics">
-            <li>Zone danger</li>
-            <li>Vertical paths</li>
-            <li>Trainer pins</li>
-            <li>Quest landmarks</li>
-          </ul>
-        </div>
+  <main class="page-main">
+    <div class="container">
+      <section class="page-hero-section" aria-labelledby="map-title">
+        <div class="page-hero-split">
+          <div class="page-hero-content">
+            <p class="page-eyebrow">World Atlas · Mining Valley</p>
+            <h1 id="map-title">Gothic 1 Remake — Interactive Map, Zones &amp; Landmark Navigation</h1>
+            <p class="page-intro">
+              The Mining Valley is a vertical, multi-layered penal colony — navigating elevation matters as
+              much as combat alignment. The Remake streamlines some ladder networks into staircases, but
+              the iconic vertical layout remains: height is your primary navigation mechanic.
+            </p>
+            <ul class="page-meta">
+              <li><strong>Scope:</strong> Full barrier interior</li>
+              <li><strong>Layers:</strong> Surface · mines · coast</li>
+              <li><strong>In-game maps:</strong> Buy from camp cartographers</li>
+            </ul>
+            <ul class="tag-row" aria-label="Map topics">
+              <li>Zone danger</li>
+              <li>Vertical paths</li>
+              <li>Trainer pins</li>
+              <li>Quest landmarks</li>
+            </ul>
+          </div>
 
-        <div class="map-atlas-block" aria-label="Interactive map preview">
-          <aside class="map-notice">
-            <span class="map-notice-icon" aria-hidden="true">📍</span>
-            <div>
-              <p class="map-notice-title">Interactive pin layer — coming soon</p>
-              <p>
-                Advanced pins (trainers, items, coordinates) deploy after June 5 launch verification.
-                Use the regional index below until the live layer unlocks.
-              </p>
-            </div>
-          </aside>
-          <figure class="map-frame">
+          <figure class="map-frame map-atlas-block" aria-label="Mining Valley overview map">
             <img
               src="/images/map-img-02.webp"
-              alt="Placeholder — Gothic 1 Remake Mining Valley world map"
+              alt="Gothic 1 Remake Mining Valley world map overview"
               width="1200"
               height="520"
-              loading="lazy"
+              loading="eager"
             />
           </figure>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="page-body-section" aria-labelledby="zones-title">
-      <div class="page-body-content">
+      <section class="page-body-section" aria-labelledby="zones-title">
+        <div class="page-body-content">
           <h2 id="zones-title">Gothic 1 Remake Valley Zones — Regions &amp; Danger Ratings</h2>
           <p>
             Before stepping off the main dirt paths, match your level and armor to local hazards. This
@@ -65,91 +54,20 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td><strong>Exchange / Outer Ring</strong></td>
-                <td><span class="danger danger-mid">Medium</span></td>
-                <td>
-                  Drop zone start — Diego, introductory scavengers, path forks to all three camps.
-                </td>
-              </tr>
-              <tr>
-                <td><strong>Old Camp + Castle</strong></td>
-                <td><span class="danger danger-low">Low*</span></td>
-                <td>
-                  Trading hub — arena, Fire Mages, Gomez, 9+ local side quests. *With camp armor.
-                </td>
-              </tr>
-              <tr>
-                <td><strong>New Camp Plateau</strong></td>
-                <td><span class="danger danger-mid">Medium</span></td>
-                <td>
-                  Lee, Cord, Water Mages — winding cliff paths with serious fall damage risk.
-                </td>
-              </tr>
-              <tr>
-                <td><strong>Swamp / Novice Grotto</strong></td>
-                <td><span class="danger danger-high">Med–High</span></td>
-                <td>
-                  Alchemy herbs, Cor Kalom's lab, novice trainers — bloodfly swarms in marsh gas.
-                </td>
-              </tr>
-              <tr>
-                <td><strong>Old Mine / Free Mine</strong></td>
-                <td><span class="danger danger-extreme">High</span></td>
-                <td>
-                  Ch.1–2 dungeons — Ian's supply list, minecrawler prelude, tight torch corridors.
-                </td>
-              </tr>
-              <tr>
-                <td><strong>Mist Tower Region</strong></td>
-                <td><span class="danger danger-extreme">High</span></td>
-                <td>
-                  Skeleton mages, coastal shipwreck, <em>The Stranger</em> book quest start — endgame
-                  coastal zone.
-                </td>
+              <tr v-for="zone in valleyZones" :key="zone.name">
+                <td><strong>{{ zone.name }}</strong></td>
+                <td><span class="danger" :class="zone.danger">{{ zone.dangerLabel }}</span></td>
+                <td v-html="zone.detail" />
               </tr>
             </tbody>
           </table>
 
           <p class="table-footnote">* Old Camp interior is safe only while wearing faction-colored armor.</p>
+        </div>
+      </section>
 
-          <div class="zone-cards">
-            <article class="zone-card">
-              <h3>Exchange / Outer Ring</h3>
-              <span class="danger danger-mid">Medium</span>
-              <p>First hours — scavengers, Diego, camp road signs. Stay on dirt paths until trained.</p>
-            </article>
-            <article class="zone-card">
-              <h3>Old Camp + Castle</h3>
-              <span class="danger danger-low">Low*</span>
-              <p>Arena district northeast, marketplace west, fire mage chapel inside castle ring.</p>
-            </article>
-            <article class="zone-card">
-              <h3>New Camp Plateau</h3>
-              <span class="danger danger-mid">Medium</span>
-              <p>Visible from exchange on clear weather — use Lee's castle as a compass if lost.</p>
-            </article>
-            <article class="zone-card">
-              <h3>Swamp Grotto</h3>
-              <span class="danger danger-high">Med–High</span>
-              <p>Boardwalks south from valley floor — follow Baal Parvez from Guy's camp comparison.</p>
-            </article>
-            <article class="zone-card">
-              <h3>Old / Free Mine</h3>
-              <span class="danger danger-extreme">High</span>
-              <p>Trial of Trust destination — connects to minecrawler nest in Chapter 2.</p>
-            </article>
-            <article class="zone-card">
-              <h3>Mist Tower Coast</h3>
-              <span class="danger danger-extreme">High</span>
-              <p>Northwest landmark — Chromatin books, Waran patrols, harbor wreck south of tower.</p>
-            </article>
-          </div>
-      </div>
-    </section>
-
-    <section class="page-body-section" aria-labelledby="nav-title">
-      <div class="page-body-content">
+      <section class="page-body-section" aria-labelledby="nav-title">
+        <div class="page-body-content">
           <h2 id="nav-title">Gothic 1 Remake Navigation — Landmarks Without a Minimap</h2>
           <p>
             Gothic 1 Remake has no automated GPS lines — spatial awareness, audio cues, and purchased
@@ -229,12 +147,14 @@
           </nav>
       </div>
     </section>
-  </PageWithToc>
+    </div>
+  </main>
 </template>
 
 <script setup>
 import { RouterLink } from 'vue-router'
 import ColonyInteractiveMap from '@/components/ColonyInteractiveMap.vue'
+import { valleyZones } from '@/data/valleyZones.js'
 </script>
 
 <style scoped>
@@ -242,38 +162,7 @@ import ColonyInteractiveMap from '@/components/ColonyInteractiveMap.vue'
 .map-atlas-block {
   position: relative;
   z-index: 1;
-}
-
-.map-notice {
-  display: flex;
-  gap: 0.85rem;
-  align-items: flex-start;
-  margin-bottom: 1rem;
-  padding: 1rem 1.15rem;
-  border: 1px solid color-mix(in srgb, var(--color-accent-3) 35%, var(--color-border-strong));
-  border-left: 3px solid var(--color-accent-3);
-  border-radius: var(--radius-md);
-  background: color-mix(in srgb, var(--color-accent-3) 8%, var(--color-bg-elevated));
-}
-
-.map-notice-icon {
-  font-size: 1.1rem;
-  line-height: 1;
-}
-
-.map-notice-title {
-  margin-bottom: 0.35rem;
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--color-accent-3);
-}
-
-.map-notice p:last-child {
   margin: 0;
-  font-size: 0.88rem;
-  color: var(--color-muted);
 }
 
 .map-frame {
@@ -365,37 +254,6 @@ import ColonyInteractiveMap from '@/components/ColonyInteractiveMap.vue'
   background: color-mix(in srgb, var(--color-accent-4) 28%, transparent);
   color: color-mix(in srgb, var(--color-text) 70%, var(--color-accent-4));
   border: 1px solid color-mix(in srgb, var(--color-accent-4) 40%, var(--color-border));
-}
-
-.zone-cards {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.85rem;
-  margin-top: 1.5rem;
-}
-
-.zone-card {
-  padding: 1rem 1.1rem;
-  background: var(--gradient-surface);
-  border: 1px solid var(--color-border-strong);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-panel);
-}
-
-.zone-card h3 {
-  margin: 0 0 0.45rem;
-  font-size: 0.95rem;
-}
-
-.zone-card .danger {
-  margin-bottom: 0.55rem;
-}
-
-.zone-card p {
-  margin: 0;
-  font-size: 0.82rem;
-  color: var(--color-muted);
-  line-height: 1.5;
 }
 
 .colony-map-wrap {
@@ -543,10 +401,6 @@ import ColonyInteractiveMap from '@/components/ColonyInteractiveMap.vue'
 @media (max-width: 1024px) {
   .map-atlas-block {
     order: -1;
-  }
-
-  .zone-cards {
-    grid-template-columns: 1fr;
   }
 }
 </style>

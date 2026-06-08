@@ -87,5 +87,3 @@ function countEntries(slug) {
   if (!content?.sections) return 0
   return content.sections.reduce((sum, section) => sum + (section.entries?.length || 0), 0)
 }
-
-export { wikiCategories }

@@ -5,11 +5,14 @@ import { DEFAULT_ICON, getIconPaths, ICON_PATHS, ICON_VIEW } from './colonyMapPi
 
 export const PIN_VIEW_W = 47
 export const PIN_VIEW_H = 56
-/** Pin tip Y in viewBox (bottom anchor point). */
+/** Wand map coordinates anchor at the pin bulb center (viewBox space). */
+export const PIN_ANCHOR_X = 24
+export const PIN_ANCHOR_Y = 24
+/** @deprecated Use PIN_ANCHOR_Y — kept for reference (tip Y in viewBox). */
 export const PIN_TIP_Y = 41.98
 /** Wand places icons in a 16×16 slot at translate(16,16) → center (24, 24). */
-const PIN_BULB_CX = 24
-const PIN_BULB_CY = 24
+const PIN_BULB_CX = PIN_ANCHOR_X
+const PIN_BULB_CY = PIN_ANCHOR_Y
 
 const ICON_DRAW_PX = 21
 
