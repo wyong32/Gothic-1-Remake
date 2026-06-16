@@ -40,8 +40,8 @@ export default [
 <p>Reinhard Pollice’s team repeated this in every making-of: keep the skeleton, upgrade the muscles. These are the pillars they refused to drop even when UE5 made flashier options easy.</p>
 <ul class="guide-list">
 <li>No minimap, no quest markers — journal and NPC directions only</li>
-<li>Strength, Dexterity, Mana, Learning Points, ore-paid trainers</li>
-<li>Three camps, Sleeper arc, focus stones, Xardas pivot, barrier finale</li>
+<li>Strength, Dexterity, Mana, <a href="/wiki/other">Learning Points</a>, ore-paid trainers</li>
+<li>Three camps, <a href="/wiki/gods">Sleeper</a> arc, <a href="/wiki/artifacts">focus stones</a>, <a href="/wiki/characters">Xardas</a> pivot, barrier finale</li>
 <li>Directional melee at its core — not God of War button chains</li>
 <li>Kai Rosenkranz score re-recorded; many original voice actors back where contracts allowed</li>
 <li>German dub still treated as the reference language for lip sync</li>
@@ -98,7 +98,7 @@ export default [
 <figure class="guide-figure"><img src="/images/guides/guides01-03.webp" alt="Swamp Camp novices on a ritual quest in the Remake" width="800" height="450" loading="lazy" /><figcaption>Swamp and New Camp routes pick up much of the slack from removed professions.</figcaption></figure>
 
 <h2 id="systems">Gear, resistances, and crafting</h2>
-<p>Armor is not just a flat armor number anymore. Weapons and cooking got more granular than the 2001 inventory spreadsheet.</p>
+<p><a href="/wiki/armors">Armor</a> is not just a flat armor number anymore. <a href="/wiki/weapons">Weapons</a> and cooking got more granular than the 2001 inventory spreadsheet.</p>
 <div class="guide-table-wrap"><table class="data-table guide-table"><caption>Systems comparison</caption><thead><tr><th scope="col">System</th><th scope="col">2001</th><th scope="col">Remake</th></tr></thead><tbody>
 <tr><td>Armor model</td><td>Single protection value</td><td>Blunt, edge, point, fire, ice, wind, energy, falling</td></tr>
 <tr><td>Armor look</td><td>Fixed mesh per item</td><td>Minor visual tweaks via modifications</td></tr>
@@ -170,7 +170,7 @@ export default [
   </ol>
   <p>Defensively, you can dodge by tapping Alt, or raise your weapon to block by holding down Control.
   </p>
-  <p>Survival Warning: In the opening hours, limit your engagements to Molerats and Scavengers. More aggressive predators like Wolves and Bloodflies will easily bypass your basic defense; missing a single dodge window against them usually means getting one-shot.
+  <p>Survival Warning: In the opening hours, limit your engagements to Molerats and <a href="/wiki/bestiary">Scavengers</a>. More aggressive predators like Wolves and Bloodflies will easily bypass your basic defense; missing a single dodge window against them usually means getting one-shot.
   </p>
   <p><img src="/images/guides/guides02-01.webp" alt="Gothic 1 Remake — Colony Survival Guide: 10 Essential Tips for Beginners" width="50%">
   </p>
@@ -189,7 +189,7 @@ export default [
   </li>
   <li>Mordrag: Once inside the Old Camp, seek out Thorus (the heavily armored guard guarding the castle gate). Exhaust his dialogue regarding the New Camp to trigger a quest to remove Mordrag (the New Camp liaison). Speak to Mordrag, tell him Thorus wants him gone, and agree to let him guide you to the New Camp. He will clear out hordes of Scavengers and Bloodflies on the way.
   </li>
-  <li>Baal Parvez: Find Parvez in the Old Camp. Convince him you are interested in joining the "Sleeper" sect. He will safely escort you through dangerous swampland straight to the Swamp Camp, butchering high-level monsters on the route.
+  <li>Baal Parvez: Find Parvez in the Old Camp. Convince him you are interested in joining the "<a href="/wiki/gods">Sleeper</a>" sect. He will safely escort you through dangerous swampland straight to the Swamp Camp, butchering high-level monsters on the route.
   </li>
   </ol>
   <h2>4. The Three Factions: Keep Your Options Open 
@@ -209,12 +209,12 @@ export default [
   <p>Do not start your journey weaponless. You can grab a reliable melee weapon and a ranged weapon before even setting foot in the Old Camp:
   </p>
   <ol>
-  <li>The Old Sword: Right after your starting conversation with Diego, walk down the mountain path toward the Valley of Mines. Keep your eyes peeled for a corpse hanging from a tree. Directly beneath this body lies an Old Sword. It has low base damage, but it's vastly superior to your bare hands.
+  <li>The <a href="/wiki/weapons">Old Sword</a>: Right after your starting conversation with Diego, walk down the mountain path toward the Valley of Mines. Keep your eyes peeled for a corpse hanging from a tree. Directly beneath this body lies an Old Sword. It has low base damage, but it's vastly superior to your bare hands.
   </li>
-  <li>The Short Bow: Continue down the path until you spot a skeleton slumped against a rock face. Pick up the Hunter's Knife next to it. Inspect the knife in your inventory to see the name "Drax" carved into the hilt. When you reach the bottom of the path, talk to the hunter named **Drax**. Return his knife, and he will give you a **Short Bow** for free. Ranged weapons are incredibly powerful early on, allowing you to pull single targets safely from distance.
+  <li>The <a href="/wiki/weapons">Short Bow</a>: Continue down the path until you spot a skeleton slumped against a rock face. Pick up the Hunter's Knife next to it. Inspect the knife in your inventory to see the name "Drax" carved into the hilt. When you reach the bottom of the path, talk to the hunter named **Drax**. Return his knife, and he will give you a **Short Bow** for free. Ranged weapons are incredibly powerful early on, allowing you to pull single targets safely from distance.
   </li>
   </ol>
-  <h2>7. Free Armor: The Digger's Dress
+  <h2>7. Free Armor: The <a href="/wiki/armors">Digger's Dress</a>
   </h2>
   <p>Armor in Gothic is typically locked behind faction membership and is incredibly expensive. However, you can secure your first protective set for free without joining any camp:
   </p>
@@ -228,7 +228,7 @@ export default [
   </ol>
   <h2>8. Sleep &amp; Cooked Food 
   </h2>
-  <p>Potions are rare and should be reserved strictly for healing mid-combat. For out-of-combat recovery, rely on food and rest:
+  <p><a href="/wiki/potions">Potions</a> are rare and should be reserved strictly for healing mid-combat. For out-of-combat recovery, rely on food and rest:
   </p>
   <ol>
   <li>Campfire Cooking: Never eat raw meat. Head to any active campfire with a pan and cook your raw meat. Cooked meat restores significantly more health per unit.
@@ -301,11 +301,11 @@ export default [
   </li>
   <li>Go to Mordrag (the New Camp liaison sitting near the outer gate). Select "Show me the goods."
   </li>
-  <li>Sell your scavenged junk to Mordrag to raise 16 Ore Nuggets. Use these funds to purchase 2x Wolf's Claws from his inventory.
+  <li>Sell your scavenged junk to Mordrag to raise 16 Ore Nuggets. Use these funds to purchase 2x <a href="/wiki/trophies">Wolf's Claws</a> from his inventory.
   </li>
   <li>Next, follow the upper path to <a href="/interactive-map">Graham</a> (the map maker). Buy 1x Parchment Paper from him for 13 Ore Nuggets.
   </li>
-  <li>Return to Torrez, deliver the items, and spend 5 Learning Points (LP) to learn Rune Magic. Select the <a href="/wiki/runes#notable-runes">Firebolt Rune</a> over the Healing Rune (since you can easily restore health for free using cooked meat or beds).
+  <li>Return to Torrez, deliver the items, and spend 5 <a href="/wiki/other">Learning Points</a> (LP) to learn Rune Magic. Select the <a href="/wiki/runes#notable-runes">Firebolt Rune</a> over the Healing Rune (since you can easily restore health for free using cooked meat or beds).
   </li>
   </ol>
   <p><img src="/images/guides/guides03-02.webp" alt="Rune Magic" width="50%">
@@ -318,7 +318,7 @@ export default [
   </h3>
   <p>Do not walk to the New Camp alone. Speak to Thorus at the Old Camp castle gate and exhaust his dialogue regarding the New Camp to start "Out of Sight". This tasks you with getting rid of Mordrag.
   </p>
-  <p>Speak to Mordrag, tell him Thorus wants him gone, and agree to let him guide you to the New Camp. Mordrag is a powerhouse; stay behind him as he clears out all Scavengers, Goblins, and Bloodflies along the canyon. You receive 100% of the combat XP for his kills. Loot the fallen Goblins to collect free Rusty Swords for selling or backup usage.
+  <p>Speak to Mordrag, tell him Thorus wants him gone, and agree to let him guide you to the New Camp. Mordrag is a powerhouse; stay behind him as he clears out all <a href="/wiki/bestiary">Scavengers</a>, Goblins, and Bloodflies along the canyon. You receive 100% of the combat XP for his kills. Loot the fallen Goblins to collect free Rusty Swords for selling or backup usage.
   </p>
   <p>The Cavalorn's Key &amp; Ring Exploit:During Mordrag's escort path, you will pass **Cavalorn's Hut**. 
   </p>
@@ -332,9 +332,9 @@ export default [
   </p>
   <p> - Ring of Life: Permanently boosts Max Health by +30. 
   </p>
-  <p> This allows you to obtain top-tier survival accessories for free, saving you from purchasing them from Cronos later.
+  <p> This allows you to obtain top-tier survival accessories for free, saving you from purchasing them from <a href="/wiki/characters">Cronos</a> later.
   </p>
-  <h3>Securing "Lurker's Bite" (21 DMG Early Sword)
+  <h3>Securing "<a href="/wiki/weapons">Lurker's Bite</a>" (21 DMG Early Sword)
   </h3>
   <p>Once you arrive at the **New Camp**, head to the central lake. Swim across to the small cavern alcove on the far side. Inside this cave, you will find a skeleton and a chest containing Lurker's Bite. 
   </p>
@@ -361,7 +361,7 @@ export default [
   </p>
   <h2>Colony Exploits: For True Gothic Veterans
   </h2>
-  <p>If you want to stretch the limits of Chapter 1, utilize these two hand-verified community exploits:
+  <p>If you want to stretch the limits of <a href="/quests-story">Chapter 1</a>, utilize these two hand-verified community exploits:
   </p>
   <ol>
   <li>The Shipwreck Longsword (40 DMG): Head to the shipwreck waters near the outer barrier boundaries. Dive into the deep underwater cave structures; tucked away inside is a hidden chest containing a 40 Damage Longsword accessible in the very first chapter.
