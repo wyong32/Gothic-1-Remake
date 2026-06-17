@@ -123,7 +123,7 @@
             <div class="button-row">
               <button type="submit" class="primary-button">Submit Data</button>
               <button type="button" class="secondary-button" @click="copyJson">Copy JSON</button>
-              <RouterLink class="text-link" to="/tools/lockpick">Back to calculator</RouterLink>
+              <a class="text-link" href="/tools/lockpick">Back to calculator</a>
             </div>
 
             <p v-if="formMessage" class="form-message" :class="formMessageClass">{{ formMessage }}</p>
@@ -183,7 +183,6 @@
 
 <script setup>
 import { computed, reactive, ref } from 'vue'
-import { RouterLink } from 'vue-router'
 import {
   POSITION_MAX,
   POSITION_MIN,

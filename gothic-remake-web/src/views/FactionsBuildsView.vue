@@ -431,9 +431,9 @@
           </table>
 
           <nav class="page-links">
-            <RouterLink to="/beginner">Beginner survival →</RouterLink>
-            <RouterLink to="/quests-story">Camp quest lists →</RouterLink>
-            <RouterLink to="/wiki">Trainer tables →</RouterLink>
+            <a href="/beginner">Beginner survival →</a>
+            <a href="/quests-story">Camp quest lists →</a>
+            <a href="/wiki">Trainer tables →</a>
           </nav>
       </div>
     </section>
@@ -444,7 +444,6 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router'
 </script>
 
 <style scoped>

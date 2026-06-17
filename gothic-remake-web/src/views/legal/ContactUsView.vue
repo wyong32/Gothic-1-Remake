@@ -75,11 +75,11 @@
           </article>
 
           <nav class="page-links" aria-label="Legal pages">
-            <RouterLink to="/legal/privacy-policy">Privacy Policy →</RouterLink>
-            <RouterLink to="/legal/terms-of-service">Terms of Service →</RouterLink>
-            <RouterLink to="/legal/copyright">Copyright →</RouterLink>
-            <RouterLink to="/legal/about-us">About Us →</RouterLink>
-            <RouterLink to="/">Back to home →</RouterLink>
+            <a href="/legal/privacy-policy">Privacy Policy →</a>
+            <a href="/legal/terms-of-service">Terms of Service →</a>
+            <a href="/legal/copyright">Copyright →</a>
+            <a href="/legal/about-us">About Us →</a>
+            <a href="/">Back to home →</a>
           </nav>
         </div>
       </section>
@@ -88,7 +88,6 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router'
 </script>
 
 <style scoped>

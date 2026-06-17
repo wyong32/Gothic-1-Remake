@@ -9,8 +9,8 @@
             Twelve reference categories with infobox stats, lore intros, and local artwork — Gods,
             Regions, Characters, Bestiary, Quests, Artifacts, Weapons, Armors, Potions, Runes,
             Trophies, and Other. For walkthroughs use
-            <RouterLink to="/beginner">Beginner</RouterLink> or
-            <RouterLink to="/quests-story">Quests &amp; Story</RouterLink>.
+            <a href="/beginner">Beginner</a> or
+            <a href="/quests-story">Quests &amp; Story</a>.
           </p>
           <ul class="page-meta">
             <li><strong>Categories:</strong> {{ categories.length }}</li>
@@ -49,10 +49,9 @@
 <GptAdSlot page-id="wiki" slot-id="2" :unit="1" />
 
           <nav class="wiki-bento" aria-label="Wiki categories">
-            <RouterLink
+            <a
               v-for="cat in categories"
-              :key="cat.slug"
-              :to="`/wiki/${cat.slug}`"
+              :key="cat.slug" :href="`/wiki/${cat.slug}`"
               class="wiki-bento__tile"
               :class="accentClass(cat.accent)"
             >
@@ -60,7 +59,7 @@
               <h3>{{ cat.title }}</h3>
               <p>{{ cat.description }}</p>
               <span class="wiki-bento__link">View reference list →</span>
-            </RouterLink>
+            </a>
           </nav>
 
           <p class="wiki-footer-note">
@@ -76,7 +75,6 @@
 
 <script setup>
 import { computed } from 'vue'
-import { RouterLink } from 'vue-router'
 import { getAllWikiCategories } from '@/wiki'
 import imageManifest from '@/wiki/imageManifest.json'
 import '@/wiki/wiki.css'

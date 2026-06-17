@@ -24,24 +24,24 @@
           <div>
             <h3>Navigate</h3>
             <ul>
-              <li><RouterLink to="/">Home</RouterLink></li>
-              <li><RouterLink to="/beginner">Beginner</RouterLink></li>
-              <li><RouterLink to="/wiki">Wiki</RouterLink></li>
-              <li><RouterLink to="/factions-builds">Factions &amp; Builds</RouterLink></li>
-              <li><RouterLink to="/quests-story">Quests &amp; Story</RouterLink></li>
-              <li><RouterLink to="/guides">Guides</RouterLink></li>
-              <li><RouterLink to="/interactive-map">Interactive Map</RouterLink></li>
-              <li><RouterLink to="/tools/lockpick">Tools</RouterLink></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/beginner">Beginner</a></li>
+              <li><a href="/wiki">Wiki</a></li>
+              <li><a href="/factions-builds">Factions &amp; Builds</a></li>
+              <li><a href="/quests-story">Quests &amp; Story</a></li>
+              <li><a href="/guides">Guides</a></li>
+              <li><a href="/interactive-map">Interactive Map</a></li>
+              <li><a href="/tools/lockpick">Tools</a></li>
             </ul>
           </div>
           <div>
             <h3>Legal</h3>
             <ul>
-              <li><RouterLink to="/legal/privacy-policy">Privacy Policy</RouterLink></li>
-              <li><RouterLink to="/legal/terms-of-service">Terms of Service</RouterLink></li>
-              <li><RouterLink to="/legal/copyright">Copyright</RouterLink></li>
-              <li><RouterLink to="/legal/about-us">About Us</RouterLink></li>
-              <li><RouterLink to="/legal/contact-us">Contact Us</RouterLink></li>
+              <li><a href="/legal/privacy-policy">Privacy Policy</a></li>
+              <li><a href="/legal/terms-of-service">Terms of Service</a></li>
+              <li><a href="/legal/copyright">Copyright</a></li>
+              <li><a href="/legal/about-us">About Us</a></li>
+              <li><a href="/legal/contact-us">Contact Us</a></li>
             </ul>
           </div>
         </nav>
@@ -59,8 +59,6 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router'
-
 const year = new Date().getFullYear()
 </script>
 

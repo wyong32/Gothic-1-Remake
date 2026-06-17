@@ -2,7 +2,7 @@
   <PageWithToc v-if="category" :key="category.slug">
     <section class="page-hero-section" :aria-labelledby="`${category.slug}-title`">
       <div class="page-hero-content">
-          <RouterLink to="/wiki" class="wiki-back-link">← Wiki categories</RouterLink>
+          <a href="/wiki" class="wiki-back-link">← Wiki categories</a>
           <p class="page-eyebrow">{{ category.title }} · Gothic 1 Remake</p>
           <h1 :id="`${category.slug}-title`">Gothic 1 Remake — Wiki Reference: {{ category.title }}</h1>
           <p class="page-intro">{{ category.description }}</p>
@@ -87,9 +87,9 @@
             Gameplay tips appear where they differ from classic Gothic 1.
           </p>
           <nav class="page-links">
-            <RouterLink to="/wiki">All categories</RouterLink>
-            <RouterLink to="/quests-story">Quest directory</RouterLink>
-            <RouterLink to="/interactive-map">Map atlas</RouterLink>
+            <a href="/wiki">All categories</a>
+            <a href="/quests-story">Quest directory</a>
+            <a href="/interactive-map">Map atlas</a>
           </nav>
       </div>
     </section>
@@ -99,14 +99,14 @@
     <div class="container">
       <h1>Wiki category not found</h1>
       <p>The category you requested does not exist in this guide.</p>
-      <RouterLink to="/wiki">Return to wiki index</RouterLink>
+      <a href="/wiki">Return to wiki index</a>
     </div>
   </main>
 </template>
 
 <script setup>
 import { computed } from 'vue'
-import { RouterLink, useRoute } from 'vue-router'
+import { useRoute } from 'vue-router'
 import { getWikiCategory } from '@/wiki'
 import '@/wiki/wiki.css'
 

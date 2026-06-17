@@ -5,7 +5,7 @@
     <section class="page-hero-section guide-detail-hero" :aria-labelledby="`${guide.addressBar}-title`">
       <div class="page-hero-split">
         <div class="page-hero-content">
-          <RouterLink to="/guides" class="guide-back-link">← All guides</RouterLink>
+          <a href="/guides" class="guide-back-link">← All guides</a>
           <p class="page-eyebrow">Player guide · {{ formattedDate }}</p>
           <h1 :id="`${guide.addressBar}-title`">{{ guide.title }}</h1>
           <p class="page-intro">{{ guide.description }}</p>
@@ -34,8 +34,8 @@
     <section class="page-body-section">
       <div class="page-body-content">
           <nav class="guide-footer-nav">
-            <RouterLink to="/guides">← Back to guide list</RouterLink>
-            <RouterLink to="/beginner">Beginner survival guide</RouterLink>
+            <a href="/guides">← Back to guide list</a>
+            <a href="/beginner">Beginner survival guide</a>
           </nav>
       </div>
     </section>
@@ -45,14 +45,14 @@
     <div class="container">
       <h1>Guide not found</h1>
       <p>That article does not exist yet.</p>
-      <RouterLink to="/guides">Return to guides</RouterLink>
+      <a href="/guides">Return to guides</a>
     </div>
   </main>
 </template>
 
 <script setup>
 import { computed } from 'vue'
-import { RouterLink, useRoute } from 'vue-router'
+import { useRoute } from 'vue-router'
 import guides from '@/data/guides.js'
 import '@/assets/styles/guides.css'
 

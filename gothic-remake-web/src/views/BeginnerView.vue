@@ -440,9 +440,9 @@
 <GptAdSlot page-id="beginner" slot-id="7" :unit="2" />
 
           <nav class="page-links">
-            <RouterLink to="/factions-builds">Compare builds →</RouterLink>
-            <RouterLink to="/quests-story">Quest directory →</RouterLink>
-            <RouterLink to="/wiki">Trainer wiki →</RouterLink>
+            <a href="/factions-builds">Compare builds →</a>
+            <a href="/quests-story">Quest directory →</a>
+            <a href="/wiki">Trainer wiki →</a>
           </nav>
       </div>
     </section>
@@ -450,7 +450,6 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router'
 </script>
 
 <style scoped>

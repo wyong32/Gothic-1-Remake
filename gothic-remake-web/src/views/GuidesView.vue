@@ -32,7 +32,7 @@
 
           <ul class="guide-index-list">
             <li v-for="guide in guides" :key="guide.addressBar">
-              <RouterLink :to="`/guides/${guide.addressBar}`" class="guide-index-card">
+              <a :href="`/guides/${guide.addressBar}`" class="guide-index-card">
                 <div class="guide-index-card__media">
                   <img :src="guide.imageUrl" :alt="guide.imageAlt" loading="lazy" width="640" height="360" />
                 </div>
@@ -46,7 +46,7 @@
                   </ul>
                   <span class="guide-index-card__cta">Read guide →</span>
                 </div>
-              </RouterLink>
+              </a>
             </li>
           </ul>
         </div>
@@ -58,7 +58,6 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router'
 import guides from '@/data/guides.js'
 import '@/assets/styles/guides.css'
 

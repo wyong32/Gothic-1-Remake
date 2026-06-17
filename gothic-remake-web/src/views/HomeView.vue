@@ -12,9 +12,9 @@
               take ore.
             </p>
             <div class="hero-actions">
-              <RouterLink to="/beginner" class="hero-btn hero-btn-primary">New to the Colony</RouterLink>
-              <RouterLink to="/guides/remake-vs-original" class="hero-btn">Remake vs 2001</RouterLink>
-              <RouterLink to="/wiki" class="hero-btn">Wiki Index</RouterLink>
+              <a href="/beginner" class="hero-btn hero-btn-primary">New to the Colony</a>
+              <a href="/guides/remake-vs-original" class="hero-btn">Remake vs 2001</a>
+              <a href="/wiki" class="hero-btn">Wiki Index</a>
             </div>
             <ul class="hero-tags" aria-label="Gothic 1 Remake highlights">
               <li v-for="tag in heroTags" :key="tag">{{ tag }}</li>
@@ -65,11 +65,11 @@
           </header>
           <ul class="situations-grid">
             <li v-for="item in playerSituations" :key="item.title">
-              <RouterLink :to="item.to" class="situations-card">
+              <a :href="item.to" class="situations-card">
                 <p class="situations-card__phase">{{ item.phase }}</p>
                 <h3>{{ item.title }}</h3>
                 <p class="situations-card__summary">{{ item.summary }}</p>
-              </RouterLink>
+              </a>
             </li>
           </ul>
         </div>
@@ -89,7 +89,7 @@
                 shifts that matter once you are in the valley.
               </p>
             </div>
-            <RouterLink class="section-cta" to="/guides/remake-vs-original">Full comparison →</RouterLink>
+            <a class="section-cta" href="/guides/remake-vs-original">Full comparison →</a>
           </header>
 
           <blockquote class="changes-verdict">
@@ -138,7 +138,7 @@
             </div>
 
             <aside class="changes-aside">
-              <RouterLink to="/guides/remake-vs-original" class="changes-aside__link">
+              <a href="/guides/remake-vs-original" class="changes-aside__link">
                 <div class="changes-aside__media">
                   <img
                     src="/images/home-img-02.webp"
@@ -156,7 +156,7 @@
                   </ul>
                   <span class="changes-aside__cta">Read comparison →</span>
                 </div>
-              </RouterLink>
+              </a>
             </aside>
           </div>
         </div>
@@ -195,7 +195,7 @@
                   <li>Fire circles</li>
                   <li>26 local quests</li>
                 </ul>
-                <RouterLink to="/factions-builds#old-camp">Old Camp build guide →</RouterLink>
+                <a href="/factions-builds#old-camp">Old Camp build guide →</a>
               </article>
             </li>
             <li class="camp-new">
@@ -217,7 +217,7 @@
                   <li>Water runes</li>
                   <li>Lee's escape plot Ch.3</li>
                 </ul>
-                <RouterLink to="/factions-builds#new-camp">New Camp build guide →</RouterLink>
+                <a href="/factions-builds#new-camp">New Camp build guide →</a>
               </article>
             </li>
             <li class="camp-swamp">
@@ -239,7 +239,7 @@
                   <li>Novice-only trainers</li>
                   <li>Focus stone arc Ch.3</li>
                 </ul>
-                <RouterLink to="/factions-builds#swamp-camp">Swamp Camp build guide →</RouterLink>
+                <a href="/factions-builds#swamp-camp">Swamp Camp build guide →</a>
               </article>
             </li>
           </ul>
@@ -273,38 +273,38 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><RouterLink to="/quests-story">Joining the Old Camp</RouterLink></td>
+                    <td><a href="/quests-story">Joining the Old Camp</a></td>
                     <td>Main</td>
                     <td>2,450 XP · Shadow Garb</td>
                   </tr>
                   <tr>
-                    <td><RouterLink to="/quests-story">Joining the New Camp</RouterLink></td>
+                    <td><a href="/quests-story">Joining the New Camp</a></td>
                     <td>Main</td>
                     <td>2,950 XP · Light Bandit Clothing</td>
                   </tr>
                   <tr>
-                    <td><RouterLink to="/quests-story">Joining the Swamp Camp</RouterLink></td>
+                    <td><a href="/quests-story">Joining the Swamp Camp</a></td>
                     <td>Main</td>
                     <td>3,850 XP · Novice Robe</td>
                   </tr>
                   <tr>
-                    <td><RouterLink to="/quests-story">Trial of Trust</RouterLink></td>
+                    <td><a href="/quests-story">Trial of Trust</a></td>
                     <td>Side</td>
                     <td>750 XP · Diego route</td>
                   </tr>
                   <tr>
-                    <td><RouterLink to="/quests-story">The Stranger</RouterLink></td>
+                    <td><a href="/quests-story">The Stranger</a></td>
                     <td>Side</td>
                     <td>3,350 XP · six Chromatin books</td>
                   </tr>
                   <tr>
-                    <td><RouterLink to="/quests-story">Baloro's Weapon</RouterLink></td>
+                    <td><a href="/quests-story">Baloro's Weapon</a></td>
                     <td>Side</td>
                     <td>250 XP</td>
                   </tr>
                 </tbody>
               </table>
-              <RouterLink class="chapter-link" to="/quests-story">Full Chapter 1 list →</RouterLink>
+              <a class="chapter-link" href="/quests-story">Full Chapter 1 list →</a>
             </article>
 
             <article class="quest-chapter">
@@ -313,7 +313,7 @@
                 Short chapter, heavy dungeon. Includes <em>Focus for the Gurus</em> and the
                 minecrawler queen egg handoff that feeds Swamp Camp's Great Calling storyline.
               </p>
-              <RouterLink class="chapter-link" to="/quests-story">Chapter 2 walkthrough →</RouterLink>
+              <a class="chapter-link" href="/quests-story">Chapter 2 walkthrough →</a>
             </article>
 
             <article class="quest-chapter">
@@ -323,7 +323,7 @@
                 traitor — <em>Exile from the Old Camp</em> forces a New Camp pivot regardless of earlier
                 loyalty.
               </p>
-              <RouterLink class="chapter-link" to="/quests-story">Chapter 3 + orc cemetery →</RouterLink>
+              <a class="chapter-link" href="/quests-story">Chapter 3 + orc cemetery →</a>
             </article>
 
             <article class="quest-chapter quest-chapter-compact">
@@ -349,12 +349,12 @@
               <h2 id="guides-title">Featured Gothic 1 Remake Guides</h2>
               <p>Longer articles on Remake changes, combat rhythm, and systems the wiki tables do not cover.</p>
             </div>
-            <RouterLink class="section-cta" to="/guides">All guides →</RouterLink>
+            <a class="section-cta" href="/guides">All guides →</a>
           </header>
 
           <ul class="guide-index-list home-guide-list">
             <li v-for="guide in homeGuides" :key="guide.addressBar">
-              <RouterLink :to="`/guides/${guide.addressBar}`" class="guide-index-card">
+              <a :href="`/guides/${guide.addressBar}`" class="guide-index-card">
                 <div class="guide-index-card__media">
                   <img
                     :src="guide.imageUrl"
@@ -374,7 +374,7 @@
                   </ul>
                   <span class="guide-index-card__cta">Read guide →</span>
                 </div>
-              </RouterLink>
+              </a>
             </li>
           </ul>
         </div>
@@ -391,12 +391,12 @@
               <h2 id="wiki-title">Gothic 1 Remake Wiki Highlights</h2>
               <p>NPCs, regions, gear, and runes — quick reference with infobox stats and in-game artwork.</p>
             </div>
-            <RouterLink class="section-cta" to="/wiki">Browse wiki →</RouterLink>
+            <a class="section-cta" href="/wiki">Browse wiki →</a>
           </header>
 
           <ul class="wiki-spotlight">
             <li v-for="spot in wikiSpotlights" :key="spot.title">
-              <RouterLink :to="spot.to" class="wiki-spotlight__card">
+              <a :href="spot.to" class="wiki-spotlight__card">
                 <div class="wiki-spotlight__visual">
                   <img v-if="spot.image" :src="spot.image" :alt="spot.title" loading="lazy" width="112" height="112" />
                   <span v-else class="wiki-spotlight__fallback" aria-hidden="true">{{ spot.initials }}</span>
@@ -406,7 +406,7 @@
                   <h3>{{ spot.title }}</h3>
                   <p>{{ spot.note }}</p>
                 </div>
-              </RouterLink>
+              </a>
             </li>
           </ul>
         </div>
@@ -482,7 +482,7 @@
             Searching <strong>Gothic 1 Remake release date</strong> or
             <strong>Gothic Remake launch</strong>? Bookmark this page — we update platform notes and
             patch details after June 5, 2026.
-            <RouterLink to="/guides">Performance notes on the guide list →</RouterLink>
+            <a href="/guides">Performance notes on the guide list →</a>
           </p>
         </div>
       </div>
@@ -546,7 +546,7 @@
 
               <p class="about-story__foot">
                 Editorial details and contact:
-                <RouterLink to="/legal/about-us">About Us</RouterLink>
+                <a href="/legal/about-us">About Us</a>
                 ·
                 <a href="mailto:wyong@gothic1remake.com">wyong@gothic1remake.com</a>
               </p>
@@ -573,7 +573,7 @@
               <dd>
                 No — the brewer / hunter / alchemist job tracks from Gothic 1 were cut. Camp-specific
                 side quests and expanded NPC routes replace that loop. See our
-                <RouterLink to="/guides/remake-vs-original">Remake vs Original guide</RouterLink>
+                <a href="/guides/remake-vs-original">Remake vs Original guide</a>
                 for the full breakdown.
               </dd>
             </div>
@@ -590,7 +590,7 @@
               <dd>
                 Listen to NPC dialogue, read journal entries, and navigate by landmarks ("old tower,"
                 "other side of the lake"). Our
-                <RouterLink to="/interactive-map">map pages</RouterLink> describe routes in player
+                <a href="/interactive-map">map pages</a> describe routes in player
                 language.
               </dd>
             </div>
@@ -614,7 +614,7 @@
               <dd>
                 Minimum: i7-7700K / R5 1600X, 16 GB RAM, RTX 2070 or RX 6700 XT, 60 GB storage.
                 Demo players report stutter until settings are tuned — see the
-                <RouterLink to="/guides">guides section</RouterLink> after launch.
+                <a href="/guides">guides section</a> after launch.
               </dd>
             </div>
             <div>
@@ -644,7 +644,6 @@
 
 <script setup>
 import { computed, ref } from 'vue'
-import { RouterLink } from 'vue-router'
 import AboutComments from '@/components/AboutComments.vue'
 import guides from '@/data/guides.js'
 import imageManifest from '@/wiki/imageManifest.json'

@@ -67,7 +67,7 @@
                 <button type="button" class="secondary-button" :disabled="!steps.length" @click="copySteps">
                   Copy Steps
                 </button>
-                <RouterLink class="secondary-link" to="/tools/lockpick-submit">Report this lock</RouterLink>
+                <a class="secondary-link" href="/tools/lockpick-submit">Report this lock</a>
               </div>
 
               <p v-if="copyStatus" class="copy-status">{{ copyStatus }}</p>
@@ -172,7 +172,7 @@
                 verified entries with location, slot count, rules, start positions, patch version, and
                 source status.
               </p>
-              <RouterLink class="submit-link" to="/tools/lockpick-submit">Submit lock data</RouterLink>
+              <a class="submit-link" href="/tools/lockpick-submit">Submit lock data</a>
             </div>
             <dl class="database-schema">
               <div>
@@ -200,7 +200,6 @@
 
 <script setup>
 import { computed, onMounted, ref, watch } from 'vue'
-import { RouterLink } from 'vue-router'
 import { injectJsonLd, resolveCanonicalUrl } from '@/seo/documentMeta.js'
 import {
   POSITION_MAX,

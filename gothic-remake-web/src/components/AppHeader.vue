@@ -2,7 +2,7 @@
   <header class="site-header">
     <div class="container">
       <div class="site-header-content">
-        <RouterLink to="/" class="site-logo" aria-label="Gothic 1 Remake Guide Home">
+        <a href="/" class="site-logo" aria-label="Gothic 1 Remake Guide Home">
           <img
             class="site-logo-image"
             src="/images/logo.webp"
@@ -13,7 +13,7 @@
           <span class="site-logo-text">
             <strong>Gothic 1 Remake</strong>
           </span>
-        </RouterLink>
+        </a>
 
         <button
           type="button"
@@ -27,14 +27,14 @@
         </button>
 
         <nav id="site-nav" class="site-nav" :class="{ 'is-open': menuOpen }" aria-label="Primary">
-          <RouterLink to="/">Home</RouterLink>
-          <RouterLink to="/beginner">Beginner</RouterLink>
-          <RouterLink to="/wiki">Wiki</RouterLink>
-          <RouterLink to="/factions-builds">Factions &amp; Builds</RouterLink>
-          <RouterLink to="/quests-story">Quests &amp; Story</RouterLink>
-          <RouterLink to="/guides">Guides</RouterLink>
-          <RouterLink to="/interactive-map">Interactive Map</RouterLink>
-          <RouterLink to="/tools/lockpick">Tools</RouterLink>
+          <a href="/" :aria-current="isNavActive('/') ? 'page' : undefined">Home</a>
+          <a href="/beginner" :aria-current="isNavActive('/beginner') ? 'page' : undefined">Beginner</a>
+          <a href="/wiki" :aria-current="isNavActive('/wiki') ? 'page' : undefined">Wiki</a>
+          <a href="/factions-builds" :aria-current="isNavActive('/factions-builds') ? 'page' : undefined">Factions &amp; Builds</a>
+          <a href="/quests-story" :aria-current="isNavActive('/quests-story') ? 'page' : undefined">Quests &amp; Story</a>
+          <a href="/guides" :aria-current="isNavActive('/guides') ? 'page' : undefined">Guides</a>
+          <a href="/interactive-map" :aria-current="isNavActive('/interactive-map') ? 'page' : undefined">Interactive Map</a>
+          <a href="/tools/lockpick" :aria-current="isNavActive('/tools') ? 'page' : undefined">Tools</a>
         </nav>
       </div>
     </div>
@@ -43,10 +43,15 @@
 
 <script setup>
 import { ref, watch } from 'vue'
-import { RouterLink, useRoute } from 'vue-router'
+import { useRoute } from 'vue-router'
 
 const menuOpen = ref(false)
 const route = useRoute()
+
+function isNavActive(path) {
+  if (path === '/') return route.path === '/'
+  return route.path === path || route.path.startsWith(`${path}/`)
+}
 
 watch(
   () => route.path,
@@ -164,11 +169,11 @@ watch(
 }
 
 .site-nav a:hover,
-.site-nav a.router-link-active {
+.site-nav a[aria-current='page'] {
   color: color-mix(in srgb, var(--color-text) 92%, var(--color-accent));
 }
 
-.site-nav a.router-link-active::after {
+.site-nav a[aria-current='page']::after {
   transform: scaleX(1);
 }
 

@@ -39,7 +39,7 @@
             <p>
               Detailed step-by-step walkthroughs for individual quests ship as sub-guides. This page
               is the master index — cross-check with the
-              <RouterLink to="/interactive-map">Interactive Map</RouterLink> for landmark directions.
+              <a href="/interactive-map">Interactive Map</a> for landmark directions.
             </p>
           </aside>
 
@@ -350,16 +350,16 @@
               <dt>Should I finish all camp admission quests before joining?</dt>
               <dd>
                 Yes, if you want maximum Chapter 1 XP and ore. See the
-                <RouterLink to="/beginner">Beginner guide</RouterLink> double-dipping method — only the
+                <a href="/beginner">Beginner guide</a> double-dipping method — only the
                 final oath is permanent.
               </dd>
             </div>
           </dl>
 
           <nav class="page-links">
-            <RouterLink to="/beginner">Chapter 1 survival →</RouterLink>
-            <RouterLink to="/factions-builds">Camp builds →</RouterLink>
-            <RouterLink to="/interactive-map">Quest locations →</RouterLink>
+            <a href="/beginner">Chapter 1 survival →</a>
+            <a href="/factions-builds">Camp builds →</a>
+            <a href="/interactive-map">Quest locations →</a>
           </nav>
       </div>
     </section>
@@ -369,7 +369,6 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router'
 </script>
 
 <style scoped>

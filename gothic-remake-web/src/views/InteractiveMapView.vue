@@ -139,15 +139,15 @@
             <p class="callout-title">Pair with quests</p>
             <p>
               Zone names in NPC dialogue often omit compass directions — cross-check
-              <RouterLink to="/quests-story">Quests &amp; Story</RouterLink> when a journal entry
+              <a href="/quests-story">Quests &amp; Story</a> when a journal entry
               references "the old tower" and you see three candidates.
             </p>
           </aside>
 
           <nav class="page-links">
-            <RouterLink to="/beginner">Survival rules →</RouterLink>
-            <RouterLink to="/quests-story">Quest directory →</RouterLink>
-            <RouterLink to="/wiki">NPC &amp; trainer wiki →</RouterLink>
+            <a href="/beginner">Survival rules →</a>
+            <a href="/quests-story">Quest directory →</a>
+            <a href="/wiki">NPC &amp; trainer wiki →</a>
           </nav>
       </div>
     </section>
@@ -158,7 +158,6 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router'
 import ColonyInteractiveMap from '@/components/ColonyInteractiveMap.vue'
 import { valleyZones } from '@/data/valleyZones.js'
 </script>
